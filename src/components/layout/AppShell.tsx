@@ -12,6 +12,8 @@ interface AppShellProps {
   showBack?: boolean;
   showNav?: boolean;
   rightAction?: React.ReactNode;
+  /** When true, main fills remaining height without scrolling (chat layout) */
+  fillHeight?: boolean;
 }
 
 export default function AppShell({
@@ -21,17 +23,18 @@ export default function AppShell({
   showBack = false,
   showNav = true,
   rightAction,
+  fillHeight = false,
 }: AppShellProps) {
   return (
-    <div className="flex flex-col min-h-dvh bg-surface">
+    <div className="flex flex-col h-dvh bg-surface">
       <Header title={title} showBack={showBack} rightAction={rightAction} />
 
       <main
-        className={`flex-1 overflow-y-auto ${
-          showNav ? "pb-20" : "pb-4"
+        className={`flex-1 min-h-0 ${
+          fillHeight ? "overflow-hidden" : `overflow-y-auto ${showNav ? "pb-20" : "pb-4"}`
         }`}
       >
-        <div className="max-w-lg mx-auto">
+        <div className={`max-w-lg mx-auto ${fillHeight ? "h-full flex flex-col" : ""}`}>
           {children}
         </div>
       </main>

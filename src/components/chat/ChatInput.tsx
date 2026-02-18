@@ -24,7 +24,7 @@ export default function ChatInput({ onSend, disabled = false }: ChatInputProps) 
   return (
     <form
       onSubmit={handleSubmit}
-      className="sticky bottom-0 z-10 flex items-center gap-2 px-4 py-3 bg-surface-card/90 glass border-t border-surface-muted/50"
+      className="shrink-0 flex items-center gap-2 px-4 py-3 bg-surface-card/90 glass border-t border-surface-muted/50"
       style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
     >
       <input

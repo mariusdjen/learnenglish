@@ -211,11 +211,11 @@ export default function ChatInterface() {
   const hasMessages = messages.length > 0;
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col flex-1 min-h-0">
       {/* Messages area */}
       <div
         ref={scrollContainerRef}
-        className="flex-1 overflow-y-auto px-4 pt-4 pb-2"
+        className="flex-1 min-h-0 overflow-y-auto px-4 pt-4 pb-2"
       >
         {/* Empty state: welcome + suggested prompts */}
         {!hasMessages && (

@@ -5,7 +5,7 @@ import ChatInterface from "@/components/chat/ChatInterface";
 
 export default function ChatPage() {
   return (
-    <AppShell activeTab="chat" title="Marius">
+    <AppShell activeTab="chat" title="Marius" fillHeight>
       <ChatInterface />
     </AppShell>
   );
