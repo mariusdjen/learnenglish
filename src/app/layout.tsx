@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import NotificationInit from "@/components/NotificationInit";
+import InactivityNudge from "@/components/InactivityNudge";
 import AuthGate from "@/components/auth/AuthGate";
 import SyncProvider from "@/components/SyncProvider";
 
@@ -50,6 +51,7 @@ export default function RootLayout({
         <AuthGate>
           <SyncProvider>
             <NotificationInit />
+            <InactivityNudge />
             {children}
           </SyncProvider>
         </AuthGate>
