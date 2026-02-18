@@ -27,6 +27,8 @@ const DAY_SEQUENCE = [
 type DayKey = (typeof DAY_SEQUENCE)[number];
 
 const INITIAL_STATE: UserProgress = {
+  userId: "",
+  userName: "",
   onboardingComplete: false,
   level: "beginner",
   preferredTime: "anytime",
@@ -46,6 +48,8 @@ const INITIAL_STATE: UserProgress = {
 };
 
 interface UserProgressActions {
+  setIdentity: (userId: string, userName: string) => void;
+  hydrateFromServer: (data: Partial<UserProgress>) => void;
   completeOnboarding: (level: UserLevel, preferredTime: PreferredTime) => void;
   completeDay: (
     verbId: string,
@@ -66,6 +70,14 @@ export const useUserProgressStore = create<UserProgressStore>()(
   persist(
     (set, get) => ({
       ...INITIAL_STATE,
+
+      setIdentity: (userId: string, userName: string) => {
+        set({ userId, userName });
+      },
+
+      hydrateFromServer: (data: Partial<UserProgress>) => {
+        set({ ...data });
+      },
 
       completeOnboarding: (level: UserLevel, preferredTime: PreferredTime) => {
         const verb = getVerb("be");

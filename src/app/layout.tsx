@@ -3,6 +3,7 @@ import { Nunito } from "next/font/google";
 import "./globals.css";
 import NotificationInit from "@/components/NotificationInit";
 import AuthGate from "@/components/auth/AuthGate";
+import SyncProvider from "@/components/SyncProvider";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -47,8 +48,10 @@ export default function RootLayout({
     <html lang="fr" className={nunito.variable}>
       <body className="font-sans antialiased">
         <AuthGate>
-          <NotificationInit />
-          {children}
+          <SyncProvider>
+            <NotificationInit />
+            {children}
+          </SyncProvider>
         </AuthGate>
       </body>
     </html>

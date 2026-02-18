@@ -8,6 +8,7 @@ interface ChatState {
 }
 
 interface ChatActions {
+  hydrateFromServer: (data: { messages?: ChatMessage[] }) => void;
   addMessage: (
     role: ChatMessage["role"],
     content: string,
@@ -24,6 +25,10 @@ export const useChatStore = create<ChatStore>()(
     (set) => ({
       messages: [],
       isLoading: false,
+
+      hydrateFromServer: (data) => {
+        set({ messages: data.messages ?? [] });
+      },
 
       addMessage: (
         role: ChatMessage["role"],

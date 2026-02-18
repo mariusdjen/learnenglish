@@ -8,6 +8,7 @@ interface NotebookState {
 }
 
 interface NotebookActions {
+  hydrateFromServer: (data: { words?: SavedWord[]; corrections?: Correction[] }) => void;
   saveWord: (word: {
     en: string;
     fr: string;
@@ -30,6 +31,13 @@ export const useNotebookStore = create<NotebookStore>()(
     (set, get) => ({
       words: [],
       corrections: [],
+
+      hydrateFromServer: (data) => {
+        set({
+          words: data.words ?? [],
+          corrections: data.corrections ?? [],
+        });
+      },
 
       saveWord: (word) => {
         const newWord: SavedWord = {

@@ -23,6 +23,8 @@ export interface ChallengeResult {
 }
 
 export interface UserProgress {
+  userId: string;
+  userName: string;
   onboardingComplete: boolean;
   level: UserLevel;
   preferredTime: PreferredTime;
