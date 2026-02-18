@@ -1,0 +1,183 @@
+{
+  "id": "make",
+  "name_en": "to make",
+  "name_fr": "faire / fabriquer / préparer",
+  "order": 6,
+  "personality": "MAKE est le créateur - il produit, fabrique, prépare. Quand tu fais un gâteau, du café, ou une erreur... c'est MAKE. Son grand rival DO se partage le mot 'faire' avec lui.",
+  "unlock_message": "MAKE et DO se partagent 'faire' en français. MAKE c'est quand tu CRÉES quelque chose : un repas, une décision, un effort. Si ça produit un résultat, c'est MAKE.",
+  "tenses": [
+    {
+      "id": "present",
+      "name_simple": "Quand tu crées, fabriques ou provoques quelque chose",
+      "name_grammar": "Present simple",
+      "explanation_simple": "MAKE c'est 'faire' quand tu PRODUIS quelque chose. Make coffee = faire du café. Make a mistake = faire une erreur. Make a decision = prendre une décision. Si le résultat est concret ou créé, c'est MAKE.",
+      "conjugation": { "I": "make", "you": "make", "he/she/it": "makes", "we": "make", "they": "make" },
+      "conjugation_tip": "MAKE pour tout le monde, MAKES pour he/she/it. Questions : DO you MAKE...? Négations : I DON'T MAKE...",
+      "traps": [
+        {
+          "id": "do_vs_make_recap",
+          "wrong_fr": "Je fais mes devoirs",
+          "wrong_en": "I make my homework",
+          "correct_en": "I do my homework",
+          "explanation": "DO = tâches/activités (homework, dishes, sports). MAKE = créer/produire (cake, coffee, decision). 'Devoirs' c'est une tâche, donc DO."
+        },
+        {
+          "id": "make_someone_do",
+          "wrong_fr": "Elle me fait rire",
+          "wrong_en": "She does me laugh",
+          "correct_en": "She makes me laugh",
+          "explanation": "MAKE someone DO something = faire faire quelque chose à quelqu'un. 'She MAKES me laugh' = elle me fait rire. MAKE + personne + verbe base."
+        },
+        {
+          "id": "make_decision_trap",
+          "wrong_fr": "Prendre une décision",
+          "wrong_en": "Take a decision",
+          "correct_en": "Make a decision",
+          "explanation": "En français c'est 'prendre' une décision, en anglais c'est MAKE a decision. On 'fabrique' une décision en anglais !"
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : MAKE = créer / produire",
+          "time_of_day": "morning",
+          "phrase": { "en": "I make coffee every morning", "fr": "Je fais du café tous les matins" },
+          "situation": "Tu décris ta routine matinale.",
+          "reveal": "MAKE c'est 'faire' quand tu CRÉES ou PRODUIS quelque chose. Du café, un gâteau, un repas, du bruit... Si le résultat est tangible ou concret, c'est MAKE.",
+          "more_phrases": [
+            { "en": "She makes great pasta", "fr": "Elle fait de super pâtes" },
+            { "en": "I made a mistake", "fr": "J'ai fait une erreur" },
+            { "en": "Let's make a plan", "fr": "Faisons un plan" }
+          ],
+          "trap_highlight": "do_vs_make_recap",
+          "memo_tip": "MAKE = CRÉER. Make coffee, make dinner, make a cake, make a plan, make a decision, make a mistake, make money, make friends, make noise. Si ça 'produit' quelque chose, c'est MAKE.",
+          "words_to_save": [
+            { "en": "coffee", "fr": "café" },
+            { "en": "mistake", "fr": "erreur" },
+            { "en": "plan", "fr": "plan" },
+            { "en": "noise", "fr": "bruit" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : MAKE vs DO",
+          "time_of_day": "evening",
+          "phrase": { "en": "I make coffee every morning", "fr": "Je fais du café tous les matins" },
+          "recap": "MAKE = créer/produire (coffee, cake, decision, mistake). DO = tâche/activité (homework, dishes, sports, your best).",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec make ou do",
+            "questions": [
+              { "question": "I ___ coffee every morning", "answer": "make", "hint": "Produire = MAKE" },
+              { "question": "She ___ her homework", "answer": "does", "hint": "Tâche = DO" },
+              { "question": "He ___ a lot of mistakes", "answer": "makes", "hint": "Produire = MAKE (+ s pour he)" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : MAKE au quotidien",
+          "time_of_day": "morning",
+          "phrase": { "en": "She makes me laugh. He makes me think", "fr": "Elle me fait rire. Il me fait réfléchir" },
+          "situation": "Tu parles de tes amis et de leur personnalité.",
+          "more_phrases": [
+            { "en": "I need to make a decision", "fr": "Je dois prendre une décision" },
+            { "en": "Don't make noise, the baby is sleeping", "fr": "Fais pas de bruit, le bébé dort" },
+            { "en": "He makes a lot of money", "fr": "Il gagne beaucoup d'argent" }
+          ],
+          "trap_highlight": "make_someone_do",
+          "memo_tip": "MAKE + personne + verbe = faire faire. 'She makes me laugh' = elle me fait rire. 'This movie makes me cry' = ce film me fait pleurer. 'You make me happy' = tu me rends heureux.",
+          "words_to_save": [
+            { "en": "to laugh", "fr": "rire" },
+            { "en": "decision", "fr": "décision" },
+            { "en": "money", "fr": "argent" },
+            { "en": "happy", "fr": "heureux" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (MAKE ou DO ?)",
+            "questions": [
+              { "question": "Je fais du café", "answer": "I make coffee", "also_accept": [], "hint": "Produire = MAKE" },
+              { "question": "Elle me fait rire", "answer": "She makes me laugh", "also_accept": [], "hint": "MAKE + personne + verbe" },
+              { "question": "Je fais la vaisselle", "answer": "I do the dishes", "also_accept": [], "hint": "Tâche = DO" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : toutes les expressions avec MAKE",
+          "time_of_day": "morning",
+          "phrase": { "en": "I need to make sure everything is ready", "fr": "Je dois m'assurer que tout est prêt" },
+          "situation": "Tu prépares un événement au travail.",
+          "more_phrases": [
+            { "en": "It's hard to make friends in a new city", "fr": "C'est dur de se faire des amis dans une nouvelle ville" },
+            { "en": "Can you make dinner tonight?", "fr": "Tu peux faire le dîner ce soir ?" },
+            { "en": "This song makes me feel good", "fr": "Cette chanson me fait me sentir bien" }
+          ],
+          "trap_highlight": "make_decision_trap",
+          "memo_tip": "Expressions MAKE : make sure (s'assurer), make friends (se faire des amis), make an effort (faire un effort), make progress (faire des progrès), make sense (avoir du sens), make it (y arriver).",
+          "words_to_save": [
+            { "en": "to make sure", "fr": "s'assurer" },
+            { "en": "to make friends", "fr": "se faire des amis" },
+            { "en": "dinner", "fr": "dîner" },
+            { "en": "to make sense", "fr": "avoir du sens" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["makes", "she", "me", "laugh"], "answer": "She makes me laugh", "hint": "Elle me fait rire" },
+              { "words": ["make", "I", "coffee", "every", "morning"], "answer": "I make coffee every morning", "hint": "Je fais du café tous les matins" },
+              { "words": ["a", "make", "to", "I", "need", "decision"], "answer": "I need to make a decision", "hint": "Je dois prendre une décision" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : à toi de jouer",
+          "time_of_day": "morning",
+          "phrase": { "en": "I made a big effort and it made a difference", "fr": "J'ai fait un gros effort et ça a fait une différence" },
+          "situation": "Tu parles de tes progrès en anglais.",
+          "more_phrases": [
+            { "en": "Let's make a deal", "fr": "Faisons un marché" },
+            { "en": "He made breakfast for everyone", "fr": "Il a préparé le petit-déjeuner pour tout le monde" },
+            { "en": "You make me proud", "fr": "Tu me rends fier" }
+          ],
+          "words_to_save": [
+            { "en": "effort", "fr": "effort" },
+            { "en": "difference", "fr": "différence" },
+            { "en": "deal", "fr": "marché / accord" },
+            { "en": "proud", "fr": "fier" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : MAKE",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "MAKE dans tous ses sens !",
+            "questions": [
+              { "type": "fill_blank", "question": "I ___ coffee every morning", "answer": "make", "hint": "Produire = MAKE" },
+              { "type": "translate", "question": "Elle me fait rire", "answer": "She makes me laugh", "also_accept": [], "hint": "MAKE + personne + verbe" },
+              { "type": "fill_blank", "question": "I need to ___ a decision", "answer": "make", "hint": "Prendre une décision = MAKE" },
+              { "type": "translate", "question": "Je fais mes devoirs", "answer": "I do my homework", "also_accept": [], "hint": "Tâche = DO, pas MAKE" },
+              { "type": "translate", "question": "Il gagne beaucoup d'argent", "answer": "He makes a lot of money", "also_accept": [], "hint": "MAKE money" }
+            ],
+            "mastery_message": "MAKE est MAÎTRISÉ ! Tu connais la différence DO vs MAKE, et toutes les expressions essentielles. SAY se débloque !"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_words": 20,
+    "total_phrases": 24,
+    "total_traps": 3,
+    "total_challenges": 23,
+    "total_days": 7,
+    "estimated_mastery_time": "1 semaine (à raison de 2 sessions par jour)"
+  }
+}

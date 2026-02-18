@@ -1,0 +1,115 @@
+{
+  "id": "know",
+  "name_en": "to know",
+  "name_fr": "savoir / connaître",
+  "order": 8,
+  "personality": "KNOW est le sage - il représente tout ce que tu sais et tout le monde que tu connais. En français tu as deux mots (savoir et connaître), en anglais un seul : KNOW. Plus simple !",
+  "unlock_message": "KNOW remplace 'savoir' ET 'connaître'. Tu sais quelque chose ? I KNOW. Tu connais quelqu'un ? I KNOW him. Un seul mot pour les deux.",
+  "tenses": [
+    {
+      "id": "present",
+      "name_simple": "Quand tu sais ou tu connais quelque chose",
+      "name_grammar": "Present simple",
+      "explanation_simple": "KNOW c'est 'savoir' et 'connaître' en un seul mot. I KNOW = je sais / je connais. Le contexte te dit lequel. Et 'I don't know' est probablement la phrase anglaise la plus utile au monde.",
+      "conjugation": { "I": "know", "you": "know", "he/she/it": "knows", "we": "know", "they": "know" },
+      "conjugation_tip": "KNOW pour tout le monde, KNOWS pour he/she/it. 'I don't know' = je sais pas. LA phrase à apprendre en premier.",
+      "traps": [
+        {
+          "id": "know_how_to",
+          "wrong_fr": "Je sais nager",
+          "wrong_en": "I know swim",
+          "correct_en": "I know how to swim",
+          "explanation": "'Savoir faire' = 'know HOW TO do'. Il faut ajouter 'how to' entre know et le verbe. Ou utilise CAN : 'I CAN swim' (plus courant)."
+        },
+        {
+          "id": "know_no_it",
+          "wrong_fr": "Tu sais ? (en général)",
+          "wrong_en": "Do you know it?",
+          "correct_en": "Do you know?",
+          "explanation": "En français on dit 'tu le sais ?' avec le pronom 'le'. En anglais, on peut dire 'Do you know?' sans 'it'. 'I know' suffit, pas besoin de 'I know it' (sauf si tu parles d'une chose précise)."
+        },
+        {
+          "id": "savoir_connaitre_same",
+          "wrong_fr": "Je connais Paris (≠ je sais Paris)",
+          "wrong_en": "I am familiar with Paris",
+          "correct_en": "I know Paris",
+          "explanation": "En anglais, KNOW = savoir ET connaître. 'I know Paris' = je connais Paris. 'I know the answer' = je sais la réponse. Pas besoin de deux verbes différents !"
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : I DON'T KNOW - la phrase la plus utile",
+          "time_of_day": "morning",
+          "phrase": { "en": "I don't know, let me check", "fr": "Je sais pas, laisse-moi vérifier" },
+          "situation": "Un collègue te pose une question et tu ne connais pas la réponse.",
+          "reveal": "'I don't know' est la phrase anglaise la plus utile quand tu débutes. Elle te sauve dans toutes les situations. Et KNOW c'est à la fois 'savoir' et 'connaître' - deux mots français, un seul en anglais !",
+          "more_phrases": [
+            { "en": "I know", "fr": "Je sais" },
+            { "en": "Do you know her?", "fr": "Tu la connais ?" },
+            { "en": "I know a good restaurant", "fr": "Je connais un bon restaurant" }
+          ],
+          "trap_highlight": "savoir_connaitre_same",
+          "memo_tip": "KNOW = savoir ET connaître. 'I know the answer' (je sais). 'I know him' (je le connais). 'I know Paris' (je connais Paris). Un seul mot, plus simple qu'en français !",
+          "words_to_save": [
+            { "en": "I don't know", "fr": "je sais pas" },
+            { "en": "to check", "fr": "vérifier" },
+            { "en": "restaurant", "fr": "restaurant" },
+            { "en": "answer", "fr": "réponse" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : KNOW dans tous les sens",
+          "time_of_day": "evening",
+          "phrase": { "en": "I don't know, let me check", "fr": "Je sais pas, laisse-moi vérifier" },
+          "recap": "KNOW = savoir + connaître. 'I don't know' = je sais pas. 'Do you know?' = tu sais ? / tu connais ?",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec know ou knows",
+            "questions": [
+              { "question": "I don't ___ the answer", "answer": "know", "hint": "Je ne sais pas la réponse" },
+              { "question": "She ___ a lot of people", "answer": "knows", "hint": "Elle connaît beaucoup de monde" },
+              { "question": "Do you ___ this song?", "answer": "know", "hint": "Tu connais cette chanson ?" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : KNOW au quotidien",
+          "time_of_day": "morning",
+          "phrase": { "en": "You never know!", "fr": "On ne sait jamais !" },
+          "situation": "Un ami hésite à tenter quelque chose, tu l'encourages.",
+          "more_phrases": [
+            { "en": "I know what you mean", "fr": "Je vois ce que tu veux dire" },
+            { "en": "Do you know how to get there?", "fr": "Tu sais comment y aller ?" },
+            { "en": "As far as I know, it's free", "fr": "À ma connaissance, c'est gratuit" }
+          ],
+          "trap_highlight": "know_how_to",
+          "memo_tip": "'Savoir faire' = 'know HOW TO'. 'I know how to cook' = je sais cuisiner. Mais au quotidien, on dit plutôt 'I CAN cook'. CAN est plus naturel pour les capacités.",
+          "words_to_save": [
+            { "en": "never", "fr": "jamais" },
+            { "en": "how to", "fr": "comment (faire)" },
+            { "en": "as far as I know", "fr": "à ma connaissance" },
+            { "en": "free", "fr": "gratuit / libre" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais",
+            "questions": [
+              { "question": "Je sais pas", "answer": "I don't know", "also_accept": [], "hint": "La phrase la plus utile !" },
+              { "question": "Tu le connais ?", "answer": "Do you know him?", "also_accept": [], "hint": "KNOW = connaître aussi" },
+              { "question": "Je sais cuisiner", "answer": "I know how to cook", "also_accept": ["I can cook"], "hint": "Know HOW TO" }
+            ]
+          }
+        },
+        "J4_recall": { "title": "Rappel : KNOW dans les conversations", "time_of_day": "morning", "phrase": { "en": "I know it's late, but do you know a good pizza place?", "fr": "Je sais qu'il est tard, mais tu connais une bonne pizzeria ?" }, "situation": "Tu as faim tard le soir et tu demandes conseil.", "more_phrases": [ { "en": "Everyone knows about it", "fr": "Tout le monde est au courant" }, { "en": "I know, right?", "fr": "Grave, non ? / N'est-ce pas ?" }, { "en": "Let me know if you need anything", "fr": "Dis-moi si tu as besoin de quelque chose" } ], "trap_highlight": "know_no_it", "memo_tip": "'Let me know' = dis-moi / tiens-moi au courant. Expression super utile et très courante au travail et entre amis.", "words_to_save": [ { "en": "late", "fr": "tard" }, { "en": "everyone", "fr": "tout le monde" }, { "en": "let me know", "fr": "dis-moi / tiens-moi au courant" }, { "en": "right?", "fr": "n'est-ce pas ? / hein ?" } ] },
+        "J4_evening": { "title": "Défi rappel", "time_of_day": "evening", "challenge": { "type": "reorder", "instruction": "Remets dans l'ordre", "questions": [ { "words": ["don't", "I", "know"], "answer": "I don't know", "hint": "Je sais pas" }, { "words": ["you", "know", "do", "him", "?"], "answer": "Do you know him?", "hint": "Tu le connais ?" }, { "words": ["know", "you", "never"], "answer": "You never know", "hint": "On ne sait jamais" } ] } },
+        "J7_mastery": { "title": "Situation nouvelle : tout ce que tu sais", "time_of_day": "morning", "phrase": { "en": "I didn't know you knew each other!", "fr": "Je savais pas que vous vous connaissiez !" }, "situation": "Tu découvres que deux de tes amis se connaissent déjà.", "more_phrases": [ { "en": "Did you know she speaks Japanese?", "fr": "Tu savais qu'elle parle japonais ?" }, { "en": "I knew it!", "fr": "Je le savais !" }, { "en": "How did you know?", "fr": "Comment tu as su ?" } ], "words_to_save": [ { "en": "each other", "fr": "l'un l'autre" }, { "en": "I knew it", "fr": "je le savais" }, { "en": "Japanese", "fr": "japonais" }, { "en": "how", "fr": "comment" } ] },
+        "J7_evening": { "title": "Défi final : KNOW", "time_of_day": "evening", "challenge": { "type": "mixed", "instruction": "KNOW dans tous ses sens !", "questions": [ { "type": "translate", "question": "Je sais pas", "answer": "I don't know", "also_accept": [], "hint": "La base !" }, { "type": "translate", "question": "Tu la connais ?", "answer": "Do you know her?", "also_accept": [], "hint": "KNOW = connaître" }, { "type": "translate", "question": "Je le savais !", "answer": "I knew it!", "also_accept": [], "hint": "Passé de KNOW = KNEW" }, { "type": "fill_blank", "question": "Do you ___ how to get there?", "answer": "know", "hint": "Tu sais comment y aller ?" }, { "type": "translate", "question": "On ne sait jamais", "answer": "You never know", "also_accept": [], "hint": "YOU never know" } ], "mastery_message": "KNOW est MAÎTRISÉ ! Savoir et connaître en un seul mot. Tu connais aussi KNEW (passé) et les expressions clés. TAKE se débloque !" } }
+      }
+    }
+  ],
+  "summary": { "total_words": 20, "total_phrases": 24, "total_traps": 3, "total_challenges": 23, "total_days": 7, "estimated_mastery_time": "1 semaine (à raison de 2 sessions par jour)" }
+}

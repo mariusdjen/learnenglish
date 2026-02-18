@@ -1,0 +1,204 @@
+{
+  "id": "get",
+  "name_en": "to get",
+  "name_fr": "obtenir / devenir / recevoir",
+  "order": 5,
+  "personality": "GET est le caméléon ultime de l'anglais - il peut vouloir dire obtenir, recevoir, devenir, comprendre, arriver... C'est LE verbe que les anglophones utilisent pour tout. Pas d'équivalent unique en français.",
+  "unlock_message": "GET n'a pas de traduction unique en français, et c'est pour ça qu'il est partout en anglais. Apprends ses différentes facettes et tu comprendras la moitié des phrases du quotidien.",
+  "tenses": [
+    {
+      "id": "present",
+      "name_simple": "GET : le verbe à tout faire",
+      "name_grammar": "Present simple",
+      "explanation_simple": "GET c'est le verbe le plus versatile de l'anglais. Il change de sens selon le contexte : recevoir, obtenir, devenir, comprendre, arriver. Pas de panique : tu vas les apprendre un par un avec des situations du quotidien.",
+      "conjugation": {
+        "I": "get",
+        "you": "get",
+        "he/she/it": "gets",
+        "we": "get",
+        "they": "get"
+      },
+      "conjugation_tip": "GET pour tout le monde, GETS pour he/she/it. Questions : DO you GET...? Négations : I DON'T GET... Classique !",
+      "traps": [
+        {
+          "id": "get_meaning_trap",
+          "wrong_fr": "GET = obtenir (uniquement)",
+          "wrong_en": "I get a cold = I obtain a cold",
+          "correct_en": "I get a cold = J'attrape un rhume",
+          "explanation": "GET change de sens selon le contexte ! GET a present = recevoir un cadeau. GET home = arriver. GET tired = devenir fatigué. GET it = comprendre. Laisse le contexte te guider."
+        },
+        {
+          "id": "get_married_trap",
+          "wrong_fr": "Je me marie",
+          "wrong_en": "I marry myself",
+          "correct_en": "I get married",
+          "explanation": "En anglais, beaucoup de changements d'état utilisent GET : get married (se marier), get divorced (divorcer), get lost (se perdre), get ready (se préparer)."
+        },
+        {
+          "id": "get_up_trap",
+          "wrong_fr": "Je me lève à 7h",
+          "wrong_en": "I rise at 7",
+          "correct_en": "I get up at 7",
+          "explanation": "GET UP = se lever. C'est un 'phrasal verb' (verbe + particule). GET ON/OFF = monter/descendre (transport). GET IN/OUT = entrer/sortir (voiture). Le petit mot après GET change tout le sens."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : GET le caméléon",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I get up at 7 and I get the metro at 8",
+            "fr": "Je me lève à 7h et je prends le métro à 8h"
+          },
+          "situation": "Tu décris ta routine matinale à quelqu'un.",
+          "reveal": "GET est partout ! 'Get up' = se lever, 'get the metro' = prendre le métro. Ce n'est qu'un début - GET a des dizaines de sens selon le contexte.",
+          "more_phrases": [
+            { "en": "I get emails every day", "fr": "Je reçois des mails tous les jours" },
+            { "en": "I don't get it", "fr": "Je comprends pas" },
+            { "en": "It gets cold in winter", "fr": "Il commence à faire froid en hiver" }
+          ],
+          "trap_highlight": "get_meaning_trap",
+          "memo_tip": "Les 5 sens de GET : 1) RECEVOIR (get a gift), 2) OBTENIR (get a job), 3) DEVENIR (get tired), 4) COMPRENDRE (get it), 5) ARRIVER (get home). Le contexte te dit lequel !",
+          "words_to_save": [
+            { "en": "to get up", "fr": "se lever" },
+            { "en": "to get (receive)", "fr": "recevoir" },
+            { "en": "to get it", "fr": "comprendre" },
+            { "en": "cold", "fr": "froid" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : les sens de GET",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I get up at 7 and I get the metro at 8",
+            "fr": "Je me lève à 7h et je prends le métro à 8h"
+          },
+          "recap": "GET = recevoir, obtenir, devenir, comprendre, arriver. Le sens dépend du contexte. GET + adjectif = devenir (get tired, get angry, get ready).",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Quel sens de GET ? Traduis le mot entre parenthèses",
+            "questions": [
+              { "question": "I ___ up at 7 (se lever)", "answer": "get", "hint": "GET UP = se lever" },
+              { "question": "I don't ___ it (comprendre)", "answer": "get", "hint": "GET IT = comprendre" },
+              { "question": "She ___ home at 6 (arriver)", "answer": "gets", "hint": "GET HOME = arriver à la maison" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : GET dans ta journée",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I need to get ready. I'm getting late",
+            "fr": "Faut que je me prépare. Je vais être en retard"
+          },
+          "situation": "Tu te prépares le matin et tu es pressé.",
+          "more_phrases": [
+            { "en": "Can you get me a coffee?", "fr": "Tu peux me chercher un café ?" },
+            { "en": "I'm getting tired", "fr": "Je commence à être fatigué" },
+            { "en": "How do I get to the station?", "fr": "Comment j'arrive à la gare ?" }
+          ],
+          "trap_highlight": "get_married_trap",
+          "memo_tip": "GET + adjectif = DEVENIR : get tired (devenir fatigué), get angry (se mettre en colère), get ready (se préparer), get married (se marier), get lost (se perdre).",
+          "words_to_save": [
+            { "en": "to get ready", "fr": "se préparer" },
+            { "en": "tired", "fr": "fatigué" },
+            { "en": "station", "fr": "gare" },
+            { "en": "to get married", "fr": "se marier" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (utilise GET)",
+            "questions": [
+              { "question": "Je me lève à 7h", "answer": "I get up at 7", "also_accept": [], "hint": "GET UP = se lever" },
+              { "question": "Je comprends pas", "answer": "I don't get it", "also_accept": [], "hint": "GET IT = comprendre" },
+              { "question": "Comment j'arrive à la gare ?", "answer": "How do I get to the station?", "also_accept": [], "hint": "GET TO = arriver à" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : phrasal verbs avec GET",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I get on the metro, get off at my stop, and get to work at 9",
+            "fr": "Je monte dans le métro, je descends à mon arrêt, et j'arrive au travail à 9h"
+          },
+          "situation": "Tu expliques ton trajet quotidien.",
+          "more_phrases": [
+            { "en": "Get in the car!", "fr": "Monte dans la voiture !" },
+            { "en": "I can't get out of this meeting", "fr": "Je peux pas sortir de cette réunion" },
+            { "en": "When did you get back?", "fr": "Tu es revenu quand ?" }
+          ],
+          "trap_highlight": "get_up_trap",
+          "memo_tip": "GET + direction : GET ON/OFF (monter/descendre d'un transport), GET IN/OUT (entrer/sortir d'une voiture/pièce), GET UP (se lever), GET BACK (revenir). La petite particule change tout !",
+          "words_to_save": [
+            { "en": "to get on", "fr": "monter (transport)" },
+            { "en": "to get off", "fr": "descendre (transport)" },
+            { "en": "to get in", "fr": "monter (voiture)" },
+            { "en": "to get back", "fr": "revenir" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec la bonne particule (up, on, off, in, out, back)",
+            "questions": [
+              { "question": "I get ___ at 7 every morning", "answer": "up", "hint": "Se lever = get UP" },
+              { "question": "Get ___ the bus at the next stop", "answer": "off", "hint": "Descendre du bus = get OFF" },
+              { "question": "Get ___ the car, we're leaving!", "answer": "in", "hint": "Monte dans la voiture = get IN" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : une journée complète avec GET",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I got up late, got stuck in traffic, and got to work at 10",
+            "fr": "Je me suis levé tard, je me suis retrouvé coincé dans les bouchons, et je suis arrivé au travail à 10h"
+          },
+          "situation": "Tu racontes une mauvaise matinée à un collègue.",
+          "more_phrases": [
+            { "en": "I'm getting better at English", "fr": "Je progresse en anglais" },
+            { "en": "Did you get my message?", "fr": "Tu as reçu mon message ?" },
+            { "en": "Let me get you a drink", "fr": "Laisse-moi te chercher un verre" }
+          ],
+          "words_to_save": [
+            { "en": "stuck in traffic", "fr": "coincé dans les bouchons" },
+            { "en": "to get better", "fr": "s'améliorer" },
+            { "en": "message", "fr": "message" },
+            { "en": "drink", "fr": "verre / boisson" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : GET dans tous ses états",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "GET le caméléon - tous les sens !",
+            "questions": [
+              { "type": "translate", "question": "Je me lève à 7h", "answer": "I get up at 7", "also_accept": [], "hint": "GET UP = se lever" },
+              { "type": "translate", "question": "Je comprends pas", "answer": "I don't get it", "also_accept": [], "hint": "GET IT = comprendre" },
+              { "type": "fill_blank", "question": "Get ___ the bus at the next stop", "answer": "off", "hint": "Descendre = get OFF" },
+              { "type": "translate", "question": "Tu as reçu mon message ?", "answer": "Did you get my message?", "also_accept": [], "hint": "GET = recevoir" },
+              { "type": "translate", "question": "Je me prépare", "answer": "I'm getting ready", "also_accept": ["I get ready"], "hint": "GET + adjectif = devenir" }
+            ],
+            "mastery_message": "GET est MAÎTRISÉ ! Tu connais ses 5 sens (recevoir, obtenir, devenir, comprendre, arriver) et ses phrasal verbs (get up, get on/off, get in/out). MAKE se débloque !"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_words": 28,
+    "total_phrases": 30,
+    "total_traps": 3,
+    "total_challenges": 29,
+    "total_days": 7,
+    "estimated_mastery_time": "1 semaine (à raison de 2 sessions par jour)"
+  }
+}

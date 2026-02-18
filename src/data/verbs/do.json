@@ -1,0 +1,584 @@
+{
+  "id": "do",
+  "name_en": "to do",
+  "name_fr": "faire",
+  "order": 3,
+  "personality": "DO est le couteau suisse de l'anglais - c'est 'faire' en tant qu'action, mais surtout c'est LUI qui fabrique les questions et les négations de TOUS les autres verbes. Maîtrise DO et tu pourras poser n'importe quelle question.",
+  "unlock_message": "DO est le verbe le plus puissant de l'anglais. Il a deux jobs : 'faire' (action) et créer les questions/négations pour tous les autres verbes. Après ce verbe, tu sauras poser des questions sur TOUT.",
+  "tenses": [
+    {
+      "id": "present_action",
+      "name_simple": "Quand tu parles de ce que tu fais (action)",
+      "name_grammar": "Present simple (action verb)",
+      "explanation_simple": "DO c'est 'faire'. I DO my homework = je fais mes devoirs. Avec he/she/it, DO devient DOES. Mais attention : en français 'faire' sert à tout, en anglais DO et MAKE se partagent le travail !",
+      "conjugation": {
+        "I": "do",
+        "you": "do",
+        "he/she/it": "does",
+        "we": "do",
+        "they": "do"
+      },
+      "conjugation_tip": "DO pour tout le monde sauf he/she/it → DOES. Comme HAVE/HAS. Pense à 'She DOES her homework' (elle fait ses devoirs).",
+      "traps": [
+        {
+          "id": "do_vs_make",
+          "wrong_fr": "Je fais un gâteau",
+          "wrong_en": "I do a cake",
+          "correct_en": "I make a cake",
+          "explanation": "En français, 'faire' sert à tout. En anglais : DO = tâches et activités (do homework, do the dishes, do sports). MAKE = créer/produire quelque chose (make a cake, make coffee, make a mistake)."
+        },
+        {
+          "id": "faire_attention_trap",
+          "wrong_fr": "Fais attention !",
+          "wrong_en": "Do attention!",
+          "correct_en": "Be careful! / Pay attention!",
+          "explanation": "'Faire attention' n'utilise ni DO ni MAKE en anglais ! C'est 'BE careful' (sois prudent) ou 'PAY attention' (prête attention)."
+        },
+        {
+          "id": "faire_promenade_trap",
+          "wrong_fr": "Je fais une promenade",
+          "wrong_en": "I do a walk",
+          "correct_en": "I take a walk / I go for a walk",
+          "explanation": "'Faire une promenade' = TAKE a walk ou GO for a walk. Ni DO ni MAKE ! Beaucoup d'expressions avec 'faire' en français utilisent un verbe différent en anglais."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : DO = faire (tâches et activités)",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "What do you do for a living?",
+            "fr": "Tu fais quoi dans la vie ?"
+          },
+          "situation": "Tu rencontres quelqu'un à une soirée et tu veux savoir son métier.",
+          "reveal": "DO c'est 'faire' pour les tâches et activités. 'What do you DO?' = Qu'est-ce que tu fais ? Ici, le premier 'do' est l'auxiliaire (question) et le deuxième est le verbe 'faire'.",
+          "more_phrases": [
+            { "en": "I do the dishes every evening", "fr": "Je fais la vaisselle tous les soirs" },
+            { "en": "She does her homework after school", "fr": "Elle fait ses devoirs après l'école" },
+            { "en": "We do sports on weekends", "fr": "On fait du sport le week-end" }
+          ],
+          "trap_highlight": "do_vs_make",
+          "memo_tip": "DO = tâches (do homework, do the dishes, do sports, do your best). MAKE = créer (make coffee, make a cake, make a decision). Si ça produit un résultat concret, c'est MAKE. Si c'est une activité, c'est DO.",
+          "words_to_save": [
+            { "en": "dishes", "fr": "vaisselle" },
+            { "en": "homework", "fr": "devoirs" },
+            { "en": "sports", "fr": "sport" },
+            { "en": "for a living", "fr": "dans la vie (métier)" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : DO vs MAKE",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "What do you do for a living?",
+            "fr": "Tu fais quoi dans la vie ?"
+          },
+          "recap": "DO = tâches et activités. MAKE = créer/produire. DO the dishes, DO homework. MAKE coffee, MAKE a cake.",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec do, does ou make",
+            "questions": [
+              { "question": "I ___ the dishes every evening", "answer": "do", "hint": "Tâche ménagère = DO" },
+              { "question": "She ___ a cake for his birthday", "answer": "makes", "hint": "Créer/produire = MAKE (+ s pour she)" },
+              { "question": "He ___ his homework", "answer": "does", "hint": "Tâche = DO (+ es pour he)" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : DO et MAKE au quotidien",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Can you do me a favor?",
+            "fr": "Tu peux me rendre un service ?"
+          },
+          "situation": "Tu demandes un service à un collègue au travail.",
+          "more_phrases": [
+            { "en": "I need to do the laundry", "fr": "Je dois faire la lessive" },
+            { "en": "He makes breakfast every morning", "fr": "Il prépare le petit-déjeuner tous les matins" },
+            { "en": "Just do your best", "fr": "Fais de ton mieux" }
+          ],
+          "trap_highlight": "faire_attention_trap",
+          "memo_tip": "Expressions clés avec DO : do the dishes, do the laundry, do homework, do your best, do a favor, do sports. Avec MAKE : make coffee, make breakfast, make a decision, make a mistake, make money.",
+          "words_to_save": [
+            { "en": "favor", "fr": "service / faveur" },
+            { "en": "laundry", "fr": "lessive" },
+            { "en": "your best", "fr": "de ton mieux" },
+            { "en": "mistake", "fr": "erreur" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (DO ou MAKE ?)",
+            "questions": [
+              { "question": "Je fais la vaisselle", "answer": "I do the dishes", "also_accept": [], "hint": "Tâche = DO" },
+              { "question": "Elle fait un gâteau", "answer": "She makes a cake", "also_accept": [], "hint": "Créer = MAKE (+s)" },
+              { "question": "Fais attention !", "answer": "Be careful!", "also_accept": ["Pay attention!"], "hint": "Piège ! Ni DO ni MAKE" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : DO dans la vie de tous les jours",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "What are you doing tonight?",
+            "fr": "Tu fais quoi ce soir ?"
+          },
+          "situation": "Tu envoies un message à un ami pour savoir s'il est libre.",
+          "more_phrases": [
+            { "en": "I don't do much on Sundays", "fr": "Je fais pas grand-chose le dimanche" },
+            { "en": "She does yoga every morning", "fr": "Elle fait du yoga tous les matins" },
+            { "en": "What did you do yesterday?", "fr": "T'as fait quoi hier ?" }
+          ],
+          "trap_highlight": "faire_promenade_trap",
+          "memo_tip": "Attention : beaucoup de 'faire' en français ne sont ni DO ni MAKE en anglais. Faire une promenade = TAKE a walk. Faire la cuisine = COOK. Faire du shopping = GO shopping.",
+          "words_to_save": [
+            { "en": "tonight", "fr": "ce soir" },
+            { "en": "much", "fr": "beaucoup / grand-chose" },
+            { "en": "yoga", "fr": "yoga" },
+            { "en": "yesterday", "fr": "hier" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["do", "you", "what", "do", "?"], "answer": "What do you do?", "hint": "Tu fais quoi (dans la vie) ?" },
+              { "words": ["makes", "she", "coffee", "every", "morning"], "answer": "She makes coffee every morning", "hint": "Elle fait du café tous les matins" },
+              { "words": ["the", "I", "laundry", "do"], "answer": "I do the laundry", "hint": "Je fais la lessive" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : parler de ta routine",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I do the cooking and she does the cleaning",
+            "fr": "Je fais la cuisine et elle fait le ménage"
+          },
+          "situation": "Tu expliques comment tu partages les tâches à la maison.",
+          "more_phrases": [
+            { "en": "He makes money online", "fr": "Il gagne de l'argent en ligne" },
+            { "en": "Do your best and don't worry", "fr": "Fais de ton mieux et t'inquiète pas" },
+            { "en": "I made a big mistake at work", "fr": "J'ai fait une grosse erreur au travail" }
+          ],
+          "words_to_save": [
+            { "en": "cooking", "fr": "cuisine (action)" },
+            { "en": "cleaning", "fr": "ménage" },
+            { "en": "money", "fr": "argent" },
+            { "en": "to worry", "fr": "s'inquiéter" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : DO action",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "DO ou MAKE ? Et les pièges !",
+            "questions": [
+              { "type": "fill_blank", "question": "I ___ the dishes every evening", "answer": "do", "hint": "Tâche = DO" },
+              { "type": "fill_blank", "question": "She ___ a mistake", "answer": "made", "hint": "Créer/produire = MAKE (passé = made)" },
+              { "type": "translate", "question": "Fais attention !", "answer": "Be careful!", "also_accept": ["Pay attention!"], "hint": "Ni DO ni MAKE !" },
+              { "type": "translate", "question": "Je fais du sport", "answer": "I do sports", "also_accept": ["I play sports"], "hint": "Activité = DO" },
+              { "type": "translate", "question": "Elle fait du café", "answer": "She makes coffee", "also_accept": [], "hint": "Produire = MAKE (+s)" }
+            ],
+            "mastery_message": "Bravo ! Tu connais DO comme verbe d'action et la différence DO vs MAKE. Maintenant, le plus important : DO comme auxiliaire pour les questions et négations !"
+          }
+        }
+      }
+    },
+    {
+      "id": "auxiliary",
+      "name_simple": "DO le magicien : comment poser des questions et dire non",
+      "name_grammar": "DO as auxiliary (questions & negations)",
+      "explanation_simple": "C'est LA leçon la plus importante de toute l'app. DO/DOES c'est le mot magique qui crée les questions et les négations pour TOUS les verbes (sauf BE et CAN). Tu aimes le café ? → DO you like coffee? Tu ne parles pas anglais ? → I DON'T speak English.",
+      "conjugation": {
+        "question_present": "DO/DOES + sujet + verbe base (Do you like...?)",
+        "negation_present": "sujet + DON'T/DOESN'T + verbe base (I don't like...)",
+        "question_past": "DID + sujet + verbe base (Did you like...?)",
+        "negation_past": "sujet + DIDN'T + verbe base (I didn't like...)"
+      },
+      "conjugation_tip": "DO = I/you/we/they. DOES = he/she/it. DID = tout le monde (passé). Après DO/DOES/DID, le verbe revient TOUJOURS à sa forme de base : 'Does she LIKE?' pas 'Does she likes?'",
+      "traps": [
+        {
+          "id": "no_do_with_be",
+          "wrong_fr": "Tu es fatigué ?",
+          "wrong_en": "Do you are tired?",
+          "correct_en": "Are you tired?",
+          "explanation": "JAMAIS de DO avec TO BE ! BE fait ses propres questions et négations. 'Are you tired?' pas 'Do you are tired?'"
+        },
+        {
+          "id": "no_do_with_can",
+          "wrong_fr": "Tu sais nager ?",
+          "wrong_en": "Do you can swim?",
+          "correct_en": "Can you swim?",
+          "explanation": "JAMAIS de DO avec CAN ! CAN fait ses propres questions et négations. 'Can you swim?' pas 'Do you can swim?'"
+        },
+        {
+          "id": "does_base_form",
+          "wrong_fr": "Elle aime le chocolat ?",
+          "wrong_en": "Does she likes chocolate?",
+          "correct_en": "Does she like chocolate?",
+          "explanation": "Après DOES, le verbe perd son 's' ! DOES prend le 's' à la place du verbe. 'Does she LIKE?' pas 'Does she likes?'"
+        },
+        {
+          "id": "did_base_form",
+          "wrong_fr": "Tu es allé au cinéma ?",
+          "wrong_en": "Did you went to the cinema?",
+          "correct_en": "Did you go to the cinema?",
+          "explanation": "Après DID, le verbe revient à sa forme de BASE ! DID porte le passé. 'Did you GO?' pas 'Did you went?'. 'Did you EAT?' pas 'Did you ate?'"
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : DO crée les questions",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Do you speak English?",
+            "fr": "Tu parles anglais ?"
+          },
+          "situation": "Tu es à l'étranger et tu veux savoir si quelqu'un parle anglais.",
+          "reveal": "DO est le mot magique des questions ! Pour demander 'tu parles anglais ?', tu mets DO devant : 'DO you speak English?'. C'est comme 'est-ce que' en français, mais en un seul mot.",
+          "more_phrases": [
+            { "en": "Do you like coffee?", "fr": "Tu aimes le café ?" },
+            { "en": "Does she work here?", "fr": "Elle travaille ici ?" },
+            { "en": "Do they have kids?", "fr": "Ils ont des enfants ?" }
+          ],
+          "trap_highlight": "no_do_with_be",
+          "memo_tip": "DO = 'est-ce que' en anglais. 'Est-ce que tu parles anglais ?' = 'DO you speak English?'. DOES pour he/she/it. Mais JAMAIS avec TO BE ou CAN !",
+          "words_to_save": [
+            { "en": "to speak", "fr": "parler" },
+            { "en": "coffee", "fr": "café" },
+            { "en": "here", "fr": "ici" },
+            { "en": "kids", "fr": "enfants" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : questions ET négations",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I don't understand. Do you speak French?",
+            "fr": "Je comprends pas. Tu parles français ?"
+          },
+          "recap": "Questions : DO/DOES + sujet + verbe. Négations : sujet + DON'T/DOESN'T + verbe. Verbe toujours en forme de base !",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec do, does, don't ou doesn't",
+            "questions": [
+              { "question": "___ you like pizza?", "answer": "Do", "hint": "Tu aimes la pizza ?" },
+              { "question": "I ___ understand", "answer": "don't", "hint": "Je comprends pas" },
+              { "question": "___ she speak English?", "answer": "Does", "hint": "Elle parle anglais ?" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : poser des questions sur tout",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I don't eat meat. Do you have a vegetarian option?",
+            "fr": "Je mange pas de viande. Vous avez une option végétarienne ?"
+          },
+          "situation": "Tu es au restaurant à l'étranger et tu expliques ce que tu ne manges pas.",
+          "more_phrases": [
+            { "en": "Does he know about this?", "fr": "Il est au courant ?" },
+            { "en": "I don't have time right now", "fr": "J'ai pas le temps là" },
+            { "en": "Where does she live?", "fr": "Elle habite où ?" }
+          ],
+          "trap_highlight": "does_base_form",
+          "memo_tip": "DOES vole le 's' du verbe ! 'She likeS' → 'Does she LIKE?' (pas likes). DOES porte déjà le 's', donc le verbe n'en a plus besoin.",
+          "words_to_save": [
+            { "en": "meat", "fr": "viande" },
+            { "en": "to eat", "fr": "manger" },
+            { "en": "to live", "fr": "habiter / vivre" },
+            { "en": "to understand", "fr": "comprendre" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (utilise DO/DOES/DON'T/DOESN'T)",
+            "questions": [
+              { "question": "Tu aimes le café ?", "answer": "Do you like coffee?", "also_accept": [], "hint": "DO + you + like" },
+              { "question": "Elle ne parle pas français", "answer": "She doesn't speak French", "also_accept": [], "hint": "She + DOESN'T + speak" },
+              { "question": "Tu es fatigué ?", "answer": "Are you tired?", "also_accept": [], "hint": "Piège ! TO BE = pas de DO !" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : DO partout sauf avec BE et CAN",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I don't know. Does anyone know the answer?",
+            "fr": "Je sais pas. Quelqu'un connaît la réponse ?"
+          },
+          "situation": "Tu es en réunion et quelqu'un pose une question que personne ne comprend.",
+          "more_phrases": [
+            { "en": "Do you want to come with us?", "fr": "Tu veux venir avec nous ?" },
+            { "en": "He doesn't like his job", "fr": "Il n'aime pas son travail" },
+            { "en": "Where do you work?", "fr": "Tu travailles où ?" }
+          ],
+          "trap_highlight": "no_do_with_can",
+          "memo_tip": "Règle d'or : DO pour TOUS les verbes SAUF TO BE et CAN (et les autres modaux). 'Do you LIKE?' 'Do you WANT?' 'Do you KNOW?' Mais : 'ARE you tired?' 'CAN you swim?'",
+          "words_to_save": [
+            { "en": "anyone", "fr": "quelqu'un" },
+            { "en": "answer", "fr": "réponse" },
+            { "en": "with us", "fr": "avec nous" },
+            { "en": "job", "fr": "travail / emploi" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["you", "do", "like", "pizza", "?"], "answer": "Do you like pizza?", "hint": "Tu aimes la pizza ?" },
+              { "words": ["doesn't", "she", "speak", "French"], "answer": "She doesn't speak French", "hint": "Elle ne parle pas français" },
+              { "words": ["do", "where", "you", "live", "?"], "answer": "Where do you live?", "hint": "Tu habites où ?" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : une conversation complète",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Do you know a good restaurant? I don't eat fish",
+            "fr": "Tu connais un bon restaurant ? Je mange pas de poisson"
+          },
+          "situation": "Tu demandes conseil à un ami pour sortir manger.",
+          "more_phrases": [
+            { "en": "Does this train go to the airport?", "fr": "Ce train va à l'aéroport ?" },
+            { "en": "I don't think so", "fr": "Je pense pas" },
+            { "en": "How much does it cost?", "fr": "Ça coûte combien ?" }
+          ],
+          "words_to_save": [
+            { "en": "fish", "fr": "poisson" },
+            { "en": "airport", "fr": "aéroport" },
+            { "en": "train", "fr": "train" },
+            { "en": "how much", "fr": "combien" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : DO auxiliaire",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Questions et négations - attention aux pièges BE et CAN !",
+            "questions": [
+              { "type": "translate", "question": "Tu parles anglais ?", "answer": "Do you speak English?", "also_accept": [], "hint": "DO + you + speak" },
+              { "type": "translate", "question": "Elle ne mange pas de viande", "answer": "She doesn't eat meat", "also_accept": [], "hint": "DOESN'T + eat (base form)" },
+              { "type": "translate", "question": "Tu es libre ce soir ?", "answer": "Are you free tonight?", "also_accept": [], "hint": "TO BE = pas de DO !" },
+              { "type": "fill_blank", "question": "___ he like his new job?", "answer": "Does", "hint": "Question he = DOES" },
+              { "type": "translate", "question": "Tu sais nager ?", "answer": "Can you swim?", "also_accept": [], "hint": "CAN = pas de DO !" },
+              { "type": "reorder", "words": ["don't", "I", "know", "the", "answer"], "answer": "I don't know the answer", "hint": "Je connais pas la réponse" }
+            ],
+            "mastery_message": "DO auxiliaire est MAÎTRISÉ ! Tu sais maintenant poser des questions et dire non pour TOUS les verbes. C'est la compétence la plus importante. Le passé (DID) se débloque !"
+          }
+        }
+      }
+    },
+    {
+      "id": "past",
+      "name_simple": "DID : questions et négations au passé",
+      "name_grammar": "Past simple with DID",
+      "explanation_simple": "DID c'est le passé de DO. Il remplace DO et DOES pour les questions et négations au passé. Et la règle d'or : après DID, le verbe revient TOUJOURS à sa forme de base. 'Did you GO?' pas 'Did you went?'",
+      "conjugation": {
+        "past_action": "did (all persons) - I did, she did, they did",
+        "question": "DID + sujet + verbe base (Did you go?)",
+        "negation": "sujet + DIDN'T + verbe base (I didn't go)"
+      },
+      "conjugation_tip": "DID pour tout le monde, comme HAD. Et la règle la plus importante : après DID, le verbe est TOUJOURS en forme de base. 'Did you EAT?' pas 'Did you ate?'. DID porte tout le passé.",
+      "traps": [
+        {
+          "id": "did_plus_base",
+          "wrong_fr": "Tu as mangé ?",
+          "wrong_en": "Did you ate?",
+          "correct_en": "Did you eat?",
+          "explanation": "Après DID, le verbe est TOUJOURS en forme de base ! DID porte le passé à lui tout seul. Did you EAT? Did you GO? Did you SEE? Jamais ate, went, saw après DID."
+        },
+        {
+          "id": "didnt_plus_base",
+          "wrong_fr": "Je n'ai pas compris",
+          "wrong_en": "I didn't understood",
+          "correct_en": "I didn't understand",
+          "explanation": "Même règle pour DIDN'T ! Le verbe revient à sa base. 'I didn't UNDERSTAND' pas 'I didn't understood'. DIDN'T porte le passé."
+        },
+        {
+          "id": "did_action_verb",
+          "wrong_fr": "J'ai fait mes devoirs",
+          "wrong_en": "I made my homework",
+          "correct_en": "I did my homework",
+          "explanation": "Le passé de DO (faire) = DID. I DID my homework. I DID the dishes. Pour l'action 'faire', le passé est bien DID (pas MADE pour les tâches)."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : DID pour le passé",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Did you have a good day?",
+            "fr": "T'as passé une bonne journée ?"
+          },
+          "situation": "Tu retrouves ton/ta partenaire le soir et tu demandes comment s'est passée sa journée.",
+          "reveal": "DID c'est le DO du passé. Pour poser une question au passé : DID + sujet + verbe BASE. 'DID you HAVE a good day?' Le verbe HAVE reste en forme de base parce que DID porte le passé.",
+          "more_phrases": [
+            { "en": "Did you eat?", "fr": "T'as mangé ?" },
+            { "en": "I didn't sleep well", "fr": "J'ai pas bien dormi" },
+            { "en": "What did you do yesterday?", "fr": "T'as fait quoi hier ?" }
+          ],
+          "trap_highlight": "did_plus_base",
+          "memo_tip": "DID + verbe BASE. Toujours. 'Did you EAT?' pas 'Did you ate?'. 'Did you GO?' pas 'Did you went?'. DID fait tout le travail du passé, le verbe se repose en forme de base.",
+          "words_to_save": [
+            { "en": "to sleep", "fr": "dormir" },
+            { "en": "well", "fr": "bien" },
+            { "en": "day", "fr": "journée" },
+            { "en": "to eat", "fr": "manger" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : DID, DIDN'T",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "Did you have a good day?",
+            "fr": "T'as passé une bonne journée ?"
+          },
+          "recap": "DID = DO au passé. Questions : DID + sujet + verbe base. Négations : sujet + DIDN'T + verbe base. Le verbe est TOUJOURS en forme de base après DID/DIDN'T.",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec did ou didn't + la bonne forme du verbe",
+            "questions": [
+              { "question": "___ you eat? (Tu as mangé ?)", "answer": "Did", "hint": "Question au passé = DID" },
+              { "question": "I ___ sleep well (J'ai pas bien dormi)", "answer": "didn't", "hint": "Négation au passé = DIDN'T" },
+              { "question": "What ___ you do? (T'as fait quoi ?)", "answer": "did", "hint": "Question au passé = DID" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : parler d'hier",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I didn't go to work today. I didn't feel well",
+            "fr": "Je suis pas allé au travail aujourd'hui. Je me sentais pas bien"
+          },
+          "situation": "Tu envoies un message à un collègue pour expliquer ton absence.",
+          "more_phrases": [
+            { "en": "Did you see the email?", "fr": "T'as vu le mail ?" },
+            { "en": "She didn't come to the meeting", "fr": "Elle est pas venue à la réunion" },
+            { "en": "Where did you go last weekend?", "fr": "T'es allé où le week-end dernier ?" }
+          ],
+          "trap_highlight": "didnt_plus_base",
+          "memo_tip": "DIDN'T + forme de base : 'I didn't GO' (pas 'went'), 'I didn't SEE' (pas 'saw'), 'I didn't UNDERSTAND' (pas 'understood'). DIDN'T efface le passé du verbe.",
+          "words_to_save": [
+            { "en": "to feel", "fr": "se sentir" },
+            { "en": "email", "fr": "mail / e-mail" },
+            { "en": "last weekend", "fr": "le week-end dernier" },
+            { "en": "meeting", "fr": "réunion" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (utilise DID/DIDN'T + forme de base)",
+            "questions": [
+              { "question": "T'as mangé ?", "answer": "Did you eat?", "also_accept": [], "hint": "DID + you + EAT (base)" },
+              { "question": "Je suis pas allé au travail", "answer": "I didn't go to work", "also_accept": [], "hint": "DIDN'T + GO (pas went !)" },
+              { "question": "T'as vu le film ?", "answer": "Did you see the movie?", "also_accept": ["Did you see the film?"], "hint": "DID + you + SEE (pas saw !)" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : mélange présent et passé",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I don't usually work on Saturdays, but I did last week",
+            "fr": "D'habitude je travaille pas le samedi, mais la semaine dernière oui"
+          },
+          "situation": "Tu expliques ta situation à un ami.",
+          "more_phrases": [
+            { "en": "Do you like sushi? I didn't like it before but now I do", "fr": "Tu aimes les sushis ? Avant j'aimais pas mais maintenant oui" },
+            { "en": "Did she call you? She doesn't usually call me", "fr": "Elle t'a appelé ? D'habitude elle m'appelle pas" },
+            { "en": "I did my homework but I didn't understand the last exercise", "fr": "J'ai fait mes devoirs mais j'ai pas compris le dernier exercice" }
+          ],
+          "trap_highlight": "did_action_verb",
+          "memo_tip": "DO/DOES au présent, DID au passé. DON'T/DOESN'T au présent, DIDN'T au passé. Le verbe après est TOUJOURS en forme de base.",
+          "words_to_save": [
+            { "en": "usually", "fr": "d'habitude" },
+            { "en": "before", "fr": "avant" },
+            { "en": "to call", "fr": "appeler" },
+            { "en": "exercise", "fr": "exercice" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec do, does, did, don't, doesn't ou didn't",
+            "questions": [
+              { "question": "___ you like coffee? (Tu aimes le café ?)", "answer": "Do", "hint": "Présent, question = DO" },
+              { "question": "She ___ come yesterday (Elle est pas venue hier)", "answer": "didn't", "hint": "Passé, négation = DIDN'T" },
+              { "question": "___ he work here? (Il travaille ici ?)", "answer": "Does", "hint": "Présent, he = DOES" },
+              { "question": "I ___ go to the gym last week (Je suis pas allé à la salle)", "answer": "didn't", "hint": "Passé, négation = DIDN'T" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : conversation passé/présent",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Did you enjoy your trip? I don't like flying but I liked the hotel",
+            "fr": "T'as aimé ton voyage ? J'aime pas l'avion mais j'ai aimé l'hôtel"
+          },
+          "situation": "Tu parles avec un ami de ses vacances.",
+          "more_phrases": [
+            { "en": "What did she say? I didn't hear", "fr": "Elle a dit quoi ? J'ai pas entendu" },
+            { "en": "I don't drink alcohol. Did you order water?", "fr": "Je bois pas d'alcool. T'as commandé de l'eau ?" },
+            { "en": "Where does he work now? He didn't like his old job", "fr": "Il travaille où maintenant ? Il aimait pas son ancien travail" }
+          ],
+          "words_to_save": [
+            { "en": "trip", "fr": "voyage" },
+            { "en": "to enjoy", "fr": "apprécier / aimer" },
+            { "en": "to hear", "fr": "entendre" },
+            { "en": "to order", "fr": "commander" }
+          ]
+        },
+        "J7_evening": {
+          "title": "BOSS FINAL : DO complet",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi ultime ! DO action, DO auxiliaire, DID passé - tout y passe",
+            "questions": [
+              { "type": "translate", "question": "Tu parles anglais ?", "answer": "Do you speak English?", "also_accept": [], "hint": "Question présent = DO" },
+              { "type": "translate", "question": "T'as aimé le film ?", "answer": "Did you like the movie?", "also_accept": ["Did you like the film?"], "hint": "Question passé = DID + LIKE (base)" },
+              { "type": "fill_blank", "question": "She ___ eat meat (Elle ne mange pas de viande)", "answer": "doesn't", "hint": "Présent, she = DOESN'T" },
+              { "type": "translate", "question": "Je suis pas allé au travail hier", "answer": "I didn't go to work yesterday", "also_accept": [], "hint": "DIDN'T + GO (pas went !)" },
+              { "type": "translate", "question": "Tu es prêt ?", "answer": "Are you ready?", "also_accept": [], "hint": "TO BE = pas de DO !" },
+              { "type": "reorder", "words": ["did", "what", "you", "do", "yesterday", "?"], "answer": "What did you do yesterday?", "hint": "T'as fait quoi hier ?" },
+              { "type": "fill_blank", "question": "I ___ the dishes yesterday (J'ai fait la vaisselle hier)", "answer": "did", "hint": "DO action au passé = DID" }
+            ],
+            "mastery_message": "DO est MAÎTRISÉ ! Tu connais DO comme action (faire), comme auxiliaire (questions/négations), et DID au passé. Tu as maintenant le pouvoir de poser des questions sur TOUT en anglais. GO se débloque ! 🎉"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_words": 40,
+    "total_phrases": 45,
+    "total_traps": 10,
+    "total_challenges": 46,
+    "total_days": 21,
+    "estimated_mastery_time": "3 semaines (à raison de 2 sessions par jour)"
+  }
+}

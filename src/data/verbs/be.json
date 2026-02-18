@@ -1,0 +1,561 @@
+{
+  "id": "be",
+  "name_en": "to be",
+  "name_fr": "être",
+  "order": 1,
+  "personality": "Le caméléon - il est PARTOUT en anglais et change de forme selon qui parle. C'est le verbe le plus utilisé de la langue anglaise.",
+  "unlock_message": "TO BE est ton premier verbe. En anglais, il sert à bien plus de choses qu'en français : ton âge, la météo, tes émotions, ta position... Tout passe par TO BE.",
+  "tenses": [
+    {
+      "id": "present",
+      "name_simple": "Quand tu parles de comment les choses sont maintenant",
+      "name_grammar": "Present simple",
+      "explanation_simple": "En français, tu dis toujours 'je suis', 'tu es', 'il est'. En anglais c'est pareil : le verbe change selon qui parle. Mais bonne nouvelle : il n'y a que 3 formes à retenir : AM, IS, ARE.",
+      "conjugation": {
+        "I": "am",
+        "you": "are",
+        "he/she/it": "is",
+        "we": "are",
+        "they": "are"
+      },
+      "conjugation_tip": "Retiens juste : I AM (je suis le seul à utiliser AM), HE/SHE/IT IS (une seule personne = IS), tout le reste = ARE.",
+      "traps": [
+        {
+          "id": "age_trap",
+          "wrong_fr": "J'ai 25 ans",
+          "wrong_en": "I have 25 years",
+          "correct_en": "I am 25",
+          "explanation": "En français on utilise AVOIR pour l'âge. En anglais, c'est TO BE. Tu ne 'possèdes' pas ton âge, tu 'es' ton âge."
+        },
+        {
+          "id": "weather_trap",
+          "wrong_fr": "Il fait froid",
+          "wrong_en": "It has cold",
+          "correct_en": "It is cold",
+          "explanation": "En français, la météo utilise 'faire' (il fait chaud, il fait beau). En anglais, c'est TO BE. It IS cold, it IS hot, it IS sunny."
+        },
+        {
+          "id": "hungry_trap",
+          "wrong_fr": "J'ai faim",
+          "wrong_en": "I have hunger",
+          "correct_en": "I am hungry",
+          "explanation": "En français, la faim et la soif utilisent AVOIR. En anglais, tu 'es' affamé : I AM hungry, I AM thirsty."
+        },
+        {
+          "id": "afraid_trap",
+          "wrong_fr": "J'ai peur",
+          "wrong_en": "I have fear",
+          "correct_en": "I am afraid",
+          "explanation": "Encore un piège AVOIR → TO BE ! En anglais, tu ne 'possèdes' pas la peur, tu 'es' effrayé."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : TO BE est partout",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I'm tired but I'm on my way",
+            "fr": "Je suis fatigué mais je suis en route"
+          },
+          "situation": "Tu es dans le métro le matin, tu écris à un ami qui t'attend.",
+          "reveal": "Tu viens d'utiliser TO BE deux fois sans le savoir ! I'm = I am (je suis). Ce petit 'm collé, c'est le verbe être.",
+          "more_phrases": [
+            { "en": "She is my sister", "fr": "C'est ma sœur" },
+            { "en": "We are late", "fr": "On est en retard" },
+            { "en": "It is cold today", "fr": "Il fait froid aujourd'hui" }
+          ],
+          "trap_highlight": "age_trap",
+          "memo_tip": "AM = 'je suis' et UNIQUEMENT 'je suis'. Pense à 'I AM Batman'. Tu ne dirais jamais 'I have Batman'. C'est pareil pour ton âge : I AM 25.",
+          "words_to_save": [
+            { "en": "tired", "fr": "fatigué" },
+            { "en": "on my way", "fr": "en route" },
+            { "en": "late", "fr": "en retard" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : les mêmes phrases",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I'm tired but I'm on my way",
+            "fr": "Je suis fatigué mais je suis en route"
+          },
+          "recap": "Ce matin, tu as vu que TO BE = être, et qu'il a 3 formes : AM (je), IS (il/elle), ARE (tout le reste).",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec am, is ou are",
+            "questions": [
+              { "question": "I ___ tired", "answer": "am", "hint": "Je suis fatigué" },
+              { "question": "She ___ my sister", "answer": "is", "hint": "C'est ma sœur" },
+              { "question": "We ___ late", "answer": "are", "hint": "On est en retard" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : TO BE dans ta vie",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I'm at work right now",
+            "fr": "Je suis au travail là"
+          },
+          "situation": "Tu envoies un message à quelqu'un pendant ta pause.",
+          "more_phrases": [
+            { "en": "He is busy", "fr": "Il est occupé" },
+            { "en": "They are French", "fr": "Ils sont français" },
+            { "en": "I am 30 years old", "fr": "J'ai 30 ans" }
+          ],
+          "trap_highlight": "hungry_trap",
+          "memo_tip": "IS = il est / elle est / c'est. Une seule personne ou chose = IS. Pense à 'He IS the boss' (c'est lui le chef).",
+          "words_to_save": [
+            { "en": "busy", "fr": "occupé" },
+            { "en": "right now", "fr": "là / maintenant" },
+            { "en": "at work", "fr": "au travail" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (utilise TO BE)",
+            "questions": [
+              { "question": "Je suis au travail", "answer": "I am at work", "also_accept": ["I'm at work"], "hint": "I ___ at work" },
+              { "question": "Il est occupé", "answer": "He is busy", "also_accept": ["He's busy"], "hint": "He ___ busy" },
+              { "question": "J'ai 30 ans", "answer": "I am 30", "also_accept": ["I am 30 years old", "I'm 30"], "hint": "Attention au piège ! C'est TO BE, pas TO HAVE" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : tu te souviens ?",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "We're not ready yet",
+            "fr": "On n'est pas encore prêts"
+          },
+          "situation": "Des amis t'attendent, tu leur écris que tu n'es pas prêt.",
+          "more_phrases": [
+            { "en": "I'm not sure", "fr": "Je ne suis pas sûr" },
+            { "en": "It's not far", "fr": "Ce n'est pas loin" },
+            { "en": "You are right", "fr": "Tu as raison" }
+          ],
+          "trap_highlight": "weather_trap",
+          "memo_tip": "ARE = vous êtes / nous sommes / ils sont. Plusieurs personnes = ARE. Pense à 'We ARE the champions'.",
+          "words_to_save": [
+            { "en": "ready", "fr": "prêt" },
+            { "en": "sure", "fr": "sûr" },
+            { "en": "right", "fr": "avoir raison" },
+            { "en": "far", "fr": "loin" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["not", "we", "ready", "are"], "answer": "We are not ready", "hint": "On n'est pas prêts" },
+              { "words": ["is", "cold", "it", "today"], "answer": "It is cold today", "hint": "Il fait froid aujourd'hui" },
+              { "words": ["am", "I", "hungry"], "answer": "I am hungry", "hint": "J'ai faim (piège !)" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : prouve que tu maîtrises",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Are you happy with your new job?",
+            "fr": "Tu es content de ton nouveau travail ?"
+          },
+          "situation": "Un ami te pose la question. Tu réponds et continues la conversation.",
+          "more_phrases": [
+            { "en": "I'm really happy, it's great", "fr": "Je suis vraiment content, c'est super" },
+            { "en": "My boss is nice", "fr": "Mon patron est sympa" },
+            { "en": "The office is not far from home", "fr": "Le bureau n'est pas loin de chez moi" }
+          ],
+          "trap_highlight": "afraid_trap",
+          "words_to_save": [
+            { "en": "happy", "fr": "content / heureux" },
+            { "en": "great", "fr": "super / génial" },
+            { "en": "nice", "fr": "sympa / gentil" },
+            { "en": "new", "fr": "nouveau" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : TO BE au présent",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi final ! Mélange de tout ce que tu as appris",
+            "questions": [
+              { "type": "translate", "question": "J'ai peur", "answer": "I am afraid", "also_accept": ["I'm afraid"], "hint": "Piège francophone ! AVOIR → TO BE" },
+              { "type": "fill_blank", "question": "They ___ French", "answer": "are", "hint": "Ils sont français" },
+              { "type": "translate", "question": "Il fait chaud aujourd'hui", "answer": "It is hot today", "also_accept": ["It's hot today"], "hint": "La météo utilise TO BE" },
+              { "type": "reorder", "words": ["is", "my", "she", "sister"], "answer": "She is my sister", "hint": "C'est ma sœur" },
+              { "type": "translate", "question": "On est en retard", "answer": "We are late", "also_accept": ["We're late"], "hint": "Plusieurs personnes = ARE" }
+            ],
+            "mastery_message": "Bravo ! Tu maîtrises TO BE au présent ! Tu sais dire qui tu es, comment tu te sens, la météo, ton âge, et tu connais les pièges francophones. Le passé de TO BE se débloque !"
+          }
+        }
+      }
+    },
+    {
+      "id": "past",
+      "name_simple": "Quand tu parles de comment les choses étaient avant",
+      "name_grammar": "Past simple",
+      "explanation_simple": "Tu sais déjà dire 'I am' (je suis). Maintenant, pour dire 'j'étais', il suffit de changer AM/IS en WAS et ARE en WERE. C'est tout. Deux mots à retenir.",
+      "conjugation": {
+        "I": "was",
+        "you": "were",
+        "he/she/it": "was",
+        "we": "were",
+        "they": "were"
+      },
+      "conjugation_tip": "C'est encore plus simple que le présent : WAS pour une seule personne (I, he, she, it), WERE pour plusieurs (you, we, they). Deux mots, c'est tout.",
+      "traps": [
+        {
+          "id": "was_were_confusion",
+          "wrong_fr": "Tu étais là ?",
+          "wrong_en": "You was there?",
+          "correct_en": "You were there?",
+          "explanation": "En anglais, YOU est toujours pluriel (même pour 'tu'). Donc c'est toujours YOU WERE, jamais 'you was'."
+        },
+        {
+          "id": "age_past_trap",
+          "wrong_fr": "Quand j'avais 10 ans",
+          "wrong_en": "When I had 10 years",
+          "correct_en": "When I was 10",
+          "explanation": "Même piège qu'au présent ! L'âge utilise TO BE : I AM 25 (maintenant), I WAS 10 (avant)."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : le passé de TO BE",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I was tired yesterday",
+            "fr": "J'étais fatigué hier"
+          },
+          "situation": "Un collègue te demande comment tu allais hier.",
+          "reveal": "Tu connais déjà AM. Son passé c'est WAS. C'est la même logique : I AM tired (maintenant) → I WAS tired (hier). Juste un changement de mot.",
+          "more_phrases": [
+            { "en": "She was at home", "fr": "Elle était à la maison" },
+            { "en": "We were late this morning", "fr": "On était en retard ce matin" },
+            { "en": "It was cold yesterday", "fr": "Il faisait froid hier" }
+          ],
+          "trap_highlight": "age_past_trap",
+          "memo_tip": "WAS = j'étais / il était / elle était / c'était. C'est le passé de AM et IS. Pense à 'I WAS young' (j'étais jeune). WERE = c'est pour YOU, WE, THEY.",
+          "words_to_save": [
+            { "en": "yesterday", "fr": "hier" },
+            { "en": "at home", "fr": "à la maison" },
+            { "en": "this morning", "fr": "ce matin" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : WAS et WERE",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I was tired yesterday",
+            "fr": "J'étais fatigué hier"
+          },
+          "recap": "WAS pour une personne (I, he, she, it), WERE pour plusieurs (you, we, they). Deux mots seulement.",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec was ou were",
+            "questions": [
+              { "question": "I ___ tired yesterday", "answer": "was", "hint": "J'étais fatigué hier" },
+              { "question": "They ___ at the restaurant", "answer": "were", "hint": "Ils étaient au restaurant" },
+              { "question": "She ___ at home", "answer": "was", "hint": "Elle était à la maison" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : WAS/WERE dans ta vie",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "The meeting was boring",
+            "fr": "La réunion était ennuyeuse"
+          },
+          "situation": "Tu racontes ta journée de travail à un ami.",
+          "more_phrases": [
+            { "en": "My colleagues were nice", "fr": "Mes collègues étaient sympas" },
+            { "en": "The food was good", "fr": "La nourriture était bonne" },
+            { "en": "I was busy all day", "fr": "J'étais occupé toute la journée" }
+          ],
+          "trap_highlight": "was_were_confusion",
+          "memo_tip": "WAS rime avec BECAUSE. 'I was tired BECAUSE the meeting was boring.' Ça s'enchaîne naturellement.",
+          "words_to_save": [
+            { "en": "boring", "fr": "ennuyeux" },
+            { "en": "colleague", "fr": "collègue" },
+            { "en": "all day", "fr": "toute la journée" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (au passé)",
+            "questions": [
+              { "question": "J'étais occupé", "answer": "I was busy", "also_accept": [], "hint": "I ___ busy" },
+              { "question": "Ils étaient sympas", "answer": "They were nice", "also_accept": [], "hint": "They ___ nice" },
+              { "question": "Quand j'avais 10 ans", "answer": "When I was 10", "also_accept": ["When I was 10 years old"], "hint": "Piège ! L'âge = TO BE, pas AVOIR" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : mélange présent et passé",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I was shy but now I'm confident",
+            "fr": "J'étais timide mais maintenant je suis sûr de moi"
+          },
+          "situation": "Tu parles de comment tu as changé.",
+          "more_phrases": [
+            { "en": "The weather was nice last week", "fr": "Il faisait beau la semaine dernière" },
+            { "en": "We were at the cinema yesterday", "fr": "On était au cinéma hier" },
+            { "en": "She was a student, now she is a teacher", "fr": "Elle était étudiante, maintenant elle est prof" }
+          ],
+          "memo_tip": "Présent : AM/IS/ARE. Passé : WAS/WERE. C'est le même verbe, juste décalé dans le temps. Comme en français : suis → étais, est → était.",
+          "words_to_save": [
+            { "en": "shy", "fr": "timide" },
+            { "en": "confident", "fr": "sûr de soi" },
+            { "en": "last week", "fr": "la semaine dernière" },
+            { "en": "now", "fr": "maintenant" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel : présent ou passé ?",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec am, is, are, was ou were",
+            "questions": [
+              { "question": "I ___ tired right now", "answer": "am", "hint": "Maintenant = présent" },
+              { "question": "She ___ at home yesterday", "answer": "was", "hint": "Hier = passé" },
+              { "question": "They ___ French", "answer": "are", "hint": "Ils sont français (toujours vrai)" },
+              { "question": "We ___ late this morning", "answer": "were", "hint": "Ce matin = passé" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : présent et passé mélangés",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I was scared at first, but now I'm fine",
+            "fr": "J'avais peur au début, mais maintenant ça va"
+          },
+          "situation": "Tu racontes ta première semaine dans un nouveau travail.",
+          "more_phrases": [
+            { "en": "My first day was stressful", "fr": "Mon premier jour était stressant" },
+            { "en": "The team is really friendly", "fr": "L'équipe est vraiment sympa" },
+            { "en": "I was lost but everyone was helpful", "fr": "J'étais perdu mais tout le monde était serviable" }
+          ],
+          "words_to_save": [
+            { "en": "scared", "fr": "effrayé / qui a peur" },
+            { "en": "at first", "fr": "au début" },
+            { "en": "fine", "fr": "ça va / bien" },
+            { "en": "friendly", "fr": "sympa / accueillant" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : TO BE au passé",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi final ! Prouve que tu maîtrises le passé de TO BE",
+            "questions": [
+              { "type": "translate", "question": "J'avais peur", "answer": "I was afraid", "also_accept": ["I was scared"], "hint": "AVOIR peur → TO BE afraid" },
+              { "type": "fill_blank", "question": "We ___ at the cinema yesterday", "answer": "were", "hint": "On était au cinéma hier" },
+              { "type": "translate", "question": "Il faisait beau hier", "answer": "It was nice yesterday", "also_accept": ["It was sunny yesterday", "The weather was nice yesterday"], "hint": "La météo = TO BE" },
+              { "type": "reorder", "words": ["was", "she", "student", "a"], "answer": "She was a student", "hint": "Elle était étudiante" },
+              { "type": "fill_blank", "question": "I ___ happy now but I ___ sad before", "answer": "am, was", "hint": "Maintenant = présent, avant = passé" }
+            ],
+            "mastery_message": "Bravo ! Tu maîtrises TO BE au présent ET au passé ! Tu peux parler de comment les choses sont et comment elles étaient. Les questions et négations avec TO BE se débloquent !"
+          }
+        }
+      }
+    },
+    {
+      "id": "questions_negations",
+      "name_simple": "Quand tu poses une question ou tu dis non avec TO BE",
+      "name_grammar": "Questions and negatives",
+      "explanation_simple": "Pour poser une question avec TO BE, c'est ultra-simple : tu inverses. 'You are tired' → 'Are you tired?'. Pour dire non : tu ajoutes NOT. 'I am not tired.' C'est tout.",
+      "conjugation": {
+        "question": "IS/AM/ARE + sujet ? (Are you tired?)",
+        "negative": "sujet + IS/AM/ARE + NOT (I am not tired)",
+        "contractions_neg": "isn't, aren't, wasn't, weren't"
+      },
+      "conjugation_tip": "En français, tu peux dire 'Tu es fatigué ?' juste en changeant le ton. En anglais aussi ! Mais la forme correcte c'est d'inverser : ARE YOU tired? IS SHE here? WAS IT cold?",
+      "traps": [
+        {
+          "id": "do_not_needed",
+          "wrong_fr": "Est-ce que tu es fatigué ?",
+          "wrong_en": "Do you are tired?",
+          "correct_en": "Are you tired?",
+          "explanation": "Avec TO BE, on n'utilise JAMAIS 'do' pour les questions. On inverse simplement le sujet et le verbe. C'est plus simple que les autres verbes !"
+        },
+        {
+          "id": "not_placement",
+          "wrong_fr": "Je ne suis pas prêt",
+          "wrong_en": "I not am ready",
+          "correct_en": "I am not ready",
+          "explanation": "NOT se place APRÈS le verbe TO BE, pas avant. I AM NOT, you ARE NOT, he IS NOT."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : les questions avec TO BE",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Are you ready?",
+            "fr": "Tu es prêt ?"
+          },
+          "situation": "Tu demandes à un ami s'il est prêt à partir.",
+          "reveal": "Tu connais 'You are ready' (tu es prêt). Pour la question, tu inverses : 'ARE YOU ready?'. C'est tout ! Pas besoin de 'est-ce que' ou de 'do'.",
+          "more_phrases": [
+            { "en": "Is she French?", "fr": "Elle est française ?" },
+            { "en": "Are they at home?", "fr": "Ils sont à la maison ?" },
+            { "en": "Was it good?", "fr": "C'était bien ?" }
+          ],
+          "trap_highlight": "do_not_needed",
+          "memo_tip": "Question TO BE = on INVERSE. C'est comme en français familier mais à l'envers : 'T'es prêt ?' → 'Are you ready?'. Sujet et verbe échangent leur place.",
+          "words_to_save": [
+            { "en": "ready", "fr": "prêt" },
+            { "en": "good", "fr": "bien / bon" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : questions + négations",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I'm not sure. Is it far?",
+            "fr": "Je ne suis pas sûr. C'est loin ?"
+          },
+          "recap": "Question = on inverse (Are you...? Is she...?). Négation = on ajoute NOT après le verbe (I am NOT, she is NOT).",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Transforme en question ou en négation",
+            "questions": [
+              { "question": "You are tired → ___ you tired?", "answer": "Are", "hint": "Inverse sujet et verbe" },
+              { "question": "I am ready → I ___ ___ ready", "answer": "am not", "hint": "Ajoute NOT après le verbe" },
+              { "question": "He is French → ___ he French?", "answer": "Is", "hint": "Inverse sujet et verbe" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : dire non et poser des questions",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I'm not hungry. Are you?",
+            "fr": "J'ai pas faim. Et toi ?"
+          },
+          "situation": "C'est l'heure du déjeuner, un collègue te propose de manger.",
+          "more_phrases": [
+            { "en": "She isn't here today", "fr": "Elle n'est pas là aujourd'hui" },
+            { "en": "Weren't you at the meeting?", "fr": "Tu n'étais pas à la réunion ?" },
+            { "en": "It's not a problem", "fr": "C'est pas un problème" }
+          ],
+          "trap_highlight": "not_placement",
+          "memo_tip": "Les contractions : is not = ISN'T, are not = AREN'T, was not = WASN'T, were not = WEREN'T. À l'oral et en message, on utilise toujours la contraction.",
+          "words_to_save": [
+            { "en": "hungry", "fr": "qui a faim" },
+            { "en": "here", "fr": "ici / là" },
+            { "en": "today", "fr": "aujourd'hui" },
+            { "en": "problem", "fr": "problème" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais",
+            "questions": [
+              { "question": "Tu es prêt ?", "answer": "Are you ready?", "also_accept": [], "hint": "Inverse : ___ you ready?" },
+              { "question": "Ce n'est pas loin", "answer": "It is not far", "also_accept": ["It's not far", "It isn't far"], "hint": "It ___ not far" },
+              { "question": "C'était bien ?", "answer": "Was it good?", "also_accept": [], "hint": "Inverse au passé : ___ it good?" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : tout mélangé",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I wasn't happy before, but I'm not complaining",
+            "fr": "J'étais pas content avant, mais je me plains pas"
+          },
+          "situation": "Tu parles de ta vie avec un ami.",
+          "more_phrases": [
+            { "en": "Isn't it beautiful?", "fr": "C'est pas beau ça ?" },
+            { "en": "We aren't sure yet", "fr": "On n'est pas encore sûrs" },
+            { "en": "Were you there?", "fr": "T'étais là ?" }
+          ],
+          "memo_tip": "Toutes les formes de TO BE suivent la même logique : AFFIRMATIF (I am), QUESTION (Am I?), NÉGATIF (I am not). Ça marche au présent ET au passé.",
+          "words_to_save": [
+            { "en": "beautiful", "fr": "beau" },
+            { "en": "yet", "fr": "encore / déjà" },
+            { "en": "there", "fr": "là / là-bas" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets dans l'ordre pour faire une question ou une négation",
+            "questions": [
+              { "words": ["you", "are", "French", "?"], "answer": "Are you French?", "hint": "Tu es français ?" },
+              { "words": ["not", "she", "is", "here"], "answer": "She is not here", "hint": "Elle n'est pas là" },
+              { "words": ["was", "good", "it", "?"], "answer": "Was it good?", "hint": "C'était bien ?" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : conversation complète",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Are you free tonight? I'm not busy",
+            "fr": "T'es libre ce soir ? Je suis pas occupé"
+          },
+          "situation": "Tu proposes à un ami de sortir ce soir.",
+          "more_phrases": [
+            { "en": "Is the restaurant far? It isn't expensive", "fr": "Le restaurant est loin ? C'est pas cher" },
+            { "en": "Weren't you tired? Are you sure?", "fr": "T'étais pas fatigué ? T'es sûr ?" },
+            { "en": "The food isn't bad, it's actually good", "fr": "La nourriture est pas mauvaise, c'est même bien" }
+          ],
+          "words_to_save": [
+            { "en": "free", "fr": "libre" },
+            { "en": "tonight", "fr": "ce soir" },
+            { "en": "expensive", "fr": "cher" },
+            { "en": "actually", "fr": "en fait" }
+          ]
+        },
+        "J7_evening": {
+          "title": "BOSS FINAL : TO BE complet",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi ultime ! Présent, passé, questions, négations - tout y passe",
+            "questions": [
+              { "type": "translate", "question": "J'ai pas faim", "answer": "I am not hungry", "also_accept": ["I'm not hungry"], "hint": "Piège AVOIR + négation !" },
+              { "type": "fill_blank", "question": "___ you at the meeting yesterday?", "answer": "Were", "hint": "Question au passé" },
+              { "type": "translate", "question": "C'est pas cher", "answer": "It is not expensive", "also_accept": ["It's not expensive", "It isn't expensive"], "hint": "Négation" },
+              { "type": "reorder", "words": ["not", "I", "was", "ready"], "answer": "I was not ready", "hint": "Négation au passé" },
+              { "type": "translate", "question": "Tu es libre ce soir ?", "answer": "Are you free tonight?", "also_accept": [], "hint": "Question : inverse !" },
+              { "type": "fill_blank", "question": "She ___ French, she ___ Spanish", "answer": "isn't, is", "hint": "Elle n'est pas française, elle est espagnole" }
+            ],
+            "mastery_message": "TO BE est MAÎTRISÉ ! Présent, passé, questions, négations - tu sais tout faire avec le verbe le plus important de l'anglais. TO HAVE se débloque ! 🎉"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_words": 35,
+    "total_phrases": 42,
+    "total_traps": 8,
+    "total_challenges": 42,
+    "total_days": 21,
+    "estimated_mastery_time": "3 semaines (à raison de 2 sessions par jour)"
+  }
+}

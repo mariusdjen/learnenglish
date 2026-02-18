@@ -1,0 +1,384 @@
+{
+  "id": "go",
+  "name_en": "to go",
+  "name_fr": "aller",
+  "order": 4,
+  "personality": "GO est le voyageur - il t'emmène partout ! Au travail, à la maison, au restaurant. Et bonus : 'going to' c'est le futur le plus simple de l'anglais, exactement comme 'je vais + infinitif' en français.",
+  "unlock_message": "Après BE, HAVE et DO, voici GO - le verbe du mouvement. Tu l'utiliseras des dizaines de fois par jour pour dire où tu vas, et 'going to' c'est ta façon de parler du futur.",
+  "tenses": [
+    {
+      "id": "present",
+      "name_simple": "Quand tu parles d'où tu vas et de tes habitudes",
+      "name_grammar": "Present simple + going to",
+      "explanation_simple": "GO c'est 'aller'. I GO to work = je vais au travail. Avec he/she/it → GOES. Et 'I'm going to + verbe' = je vais + infinitif (futur proche). C'est exactement la même structure qu'en français !",
+      "conjugation": {
+        "I": "go",
+        "you": "go",
+        "he/she/it": "goes",
+        "we": "go",
+        "they": "go",
+        "going_to": "am/is/are + going to + verb (future)"
+      },
+      "conjugation_tip": "GO pour tout le monde, GOES pour he/she/it. Questions : DO you GO...? Négations : I DON'T GO... Et pour le futur : I'M GOING TO + verbe = je vais + infinitif.",
+      "traps": [
+        {
+          "id": "go_home_trap",
+          "wrong_fr": "Je vais à la maison",
+          "wrong_en": "I go to home",
+          "correct_en": "I go home",
+          "explanation": "HOME est spécial : jamais de 'to' devant ! 'Go home', 'come home', 'get home'. Pas 'go TO home'. C'est une exception à retenir."
+        },
+        {
+          "id": "go_well_trap",
+          "wrong_fr": "Je vais bien",
+          "wrong_en": "I go well",
+          "correct_en": "I'm fine / I'm good",
+          "explanation": "'Aller bien' en français → TO BE en anglais ! 'Comment tu vas ?' = 'How ARE you?' 'Je vais bien' = 'I'M fine'. Pas de GO pour la santé/l'état."
+        },
+        {
+          "id": "go_vs_come",
+          "wrong_fr": "J'arrive ! (vers la personne)",
+          "wrong_en": "I go!",
+          "correct_en": "I'm coming!",
+          "explanation": "GO = s'éloigner. COME = se rapprocher. Quand tu dis 'j'arrive !' à quelqu'un, tu vas VERS lui → I'M COMING! (pas I'm going)."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : GO = aller",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I go to work by metro every day",
+            "fr": "Je vais au travail en métro tous les jours"
+          },
+          "situation": "Tu décris ta routine à un nouveau collègue.",
+          "reveal": "GO c'est 'aller'. Simple et direct. 'I go TO work' = je vais AU travail. GO + TO + lieu. Sauf HOME qui n'a jamais de 'to' !",
+          "more_phrases": [
+            { "en": "She goes to the gym after work", "fr": "Elle va à la salle après le travail" },
+            { "en": "We go out on Fridays", "fr": "On sort le vendredi" },
+            { "en": "I go home at 6", "fr": "Je rentre à 18h" }
+          ],
+          "trap_highlight": "go_home_trap",
+          "memo_tip": "GO TO + lieu : go to work, go to school, go to the restaurant. MAIS : go HOME (pas de 'to'), go THERE (pas de 'to'). HOME et THERE sont des exceptions.",
+          "words_to_save": [
+            { "en": "by metro", "fr": "en métro" },
+            { "en": "every day", "fr": "tous les jours" },
+            { "en": "gym", "fr": "salle de sport" },
+            { "en": "to go out", "fr": "sortir" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : GO + le futur avec GOING TO",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I'm going to eat. Do you want to come?",
+            "fr": "Je vais manger. Tu veux venir ?"
+          },
+          "recap": "GO = aller. GO TO + lieu (sauf home). Et GOING TO + verbe = le futur, exactement comme 'je vais + infinitif' en français.",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec go, goes ou going to",
+            "questions": [
+              { "question": "I ___ to work by metro", "answer": "go", "hint": "Je vais au travail en métro" },
+              { "question": "She ___ to the gym every day", "answer": "goes", "hint": "Elle va à la salle tous les jours (she = goes)" },
+              { "question": "I'm ___ eat", "answer": "going to", "hint": "Je vais manger (futur)" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : tes projets avec GOING TO",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I'm going to visit my parents this weekend",
+            "fr": "Je vais voir mes parents ce week-end"
+          },
+          "situation": "Un ami te demande tes plans pour le week-end.",
+          "more_phrases": [
+            { "en": "Are you going to come to the party?", "fr": "Tu vas venir à la fête ?" },
+            { "en": "It's going to rain", "fr": "Il va pleuvoir" },
+            { "en": "We're going to be late", "fr": "On va être en retard" }
+          ],
+          "trap_highlight": "go_well_trap",
+          "memo_tip": "GOING TO = le futur le plus facile. 'Je vais manger' = 'I'm going to eat'. 'Il va pleuvoir' = 'It's going to rain'. C'est la MÊME structure qu'en français !",
+          "words_to_save": [
+            { "en": "to visit", "fr": "rendre visite / visiter" },
+            { "en": "parents", "fr": "parents" },
+            { "en": "party", "fr": "fête" },
+            { "en": "to rain", "fr": "pleuvoir" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais",
+            "questions": [
+              { "question": "Je vais au travail en métro", "answer": "I go to work by metro", "also_accept": ["I take the metro to work"], "hint": "GO TO + lieu" },
+              { "question": "Je rentre à la maison", "answer": "I go home", "also_accept": ["I'm going home"], "hint": "Pas de TO avec HOME !" },
+              { "question": "Je vais manger", "answer": "I'm going to eat", "also_accept": [], "hint": "Futur = I'm going to + verbe" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : GO partout",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I usually go shopping on Saturdays",
+            "fr": "D'habitude je fais les courses le samedi"
+          },
+          "situation": "Tu parles de ta routine du week-end.",
+          "more_phrases": [
+            { "en": "Do you want to go for a walk?", "fr": "Tu veux aller faire un tour ?" },
+            { "en": "Let's go!", "fr": "Allons-y ! / On y va !" },
+            { "en": "Where are you going?", "fr": "Tu vas où ?" }
+          ],
+          "trap_highlight": "go_vs_come",
+          "memo_tip": "Expressions avec GO : go shopping (faire les courses), go for a walk (se promener), go out (sortir), go back (retourner), let's go (on y va). GO est dans plein d'expressions du quotidien.",
+          "words_to_save": [
+            { "en": "shopping", "fr": "courses / shopping" },
+            { "en": "for a walk", "fr": "se promener" },
+            { "en": "let's go", "fr": "allons-y" },
+            { "en": "back", "fr": "retour / en arrière" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["go", "I", "to", "work", "by", "metro"], "answer": "I go to work by metro", "hint": "Je vais au travail en métro" },
+              { "words": ["going", "it's", "to", "rain"], "answer": "It's going to rain", "hint": "Il va pleuvoir" },
+              { "words": ["home", "I", "go", "at", "6"], "answer": "I go home at 6", "hint": "Je rentre à 18h (pas de TO !)" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : organiser une sortie",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Where do you want to go tonight? I'm going to book a table",
+            "fr": "Tu veux aller où ce soir ? Je vais réserver une table"
+          },
+          "situation": "Tu organises une soirée avec des amis.",
+          "more_phrases": [
+            { "en": "We're going to go to the cinema", "fr": "On va aller au cinéma" },
+            { "en": "She goes running every morning", "fr": "Elle va courir tous les matins" },
+            { "en": "I don't go out during the week", "fr": "Je sors pas en semaine" }
+          ],
+          "words_to_save": [
+            { "en": "tonight", "fr": "ce soir" },
+            { "en": "to book", "fr": "réserver" },
+            { "en": "cinema", "fr": "cinéma" },
+            { "en": "during the week", "fr": "en semaine" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : GO au présent + futur",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "GO dans tous ses états !",
+            "questions": [
+              { "type": "translate", "question": "Je rentre à la maison", "answer": "I go home", "also_accept": ["I'm going home"], "hint": "Pas de TO avec HOME !" },
+              { "type": "translate", "question": "Il va pleuvoir", "answer": "It's going to rain", "also_accept": [], "hint": "Futur = going to" },
+              { "type": "fill_blank", "question": "She ___ to the gym every day", "answer": "goes", "hint": "She = GOES" },
+              { "type": "translate", "question": "Je vais bien", "answer": "I'm fine", "also_accept": ["I'm good", "I am fine"], "hint": "Piège ! 'Aller bien' = TO BE, pas GO" },
+              { "type": "translate", "question": "J'arrive !", "answer": "I'm coming!", "also_accept": [], "hint": "Vers la personne = COME, pas GO" }
+            ],
+            "mastery_message": "Bravo ! Tu maîtrises GO au présent et le futur avec GOING TO. Tu sais aussi les pièges (home, aller bien, go vs come). Le passé de GO se débloque !"
+          }
+        }
+      }
+    },
+    {
+      "id": "past",
+      "name_simple": "Quand tu parles d'où tu es allé",
+      "name_grammar": "Past simple",
+      "explanation_simple": "Le passé de GO c'est WENT. C'est irrégulier mais c'est un des mots les plus utilisés en anglais. I WENT to the cinema = je suis allé au cinéma. Et n'oublie pas : avec DID, le verbe revient à GO !",
+      "conjugation": {
+        "I": "went",
+        "you": "went",
+        "he/she/it": "went",
+        "we": "went",
+        "they": "went"
+      },
+      "conjugation_tip": "WENT pour tout le monde. Questions : DID you GO? (pas 'did you went'). Négations : I DIDN'T GO (pas 'didn't went'). Après DID, c'est toujours GO.",
+      "traps": [
+        {
+          "id": "je_suis_alle",
+          "wrong_fr": "Je suis allé au cinéma",
+          "wrong_en": "I am went to the cinema",
+          "correct_en": "I went to the cinema",
+          "explanation": "En français, 'aller' utilise ÊTRE au passé ('je SUIS allé'). En anglais, c'est juste WENT. Pas besoin de 'am'. I WENT, point final."
+        },
+        {
+          "id": "did_go_not_went",
+          "wrong_fr": "Tu es allé au cinéma ?",
+          "wrong_en": "Did you went to the cinema?",
+          "correct_en": "Did you go to the cinema?",
+          "explanation": "Après DID, c'est toujours la forme de base ! 'Did you GO?' pas 'Did you went?'. DID porte le passé, GO reste en base."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : WENT = le passé de GO",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I went to a great restaurant last night",
+            "fr": "Je suis allé dans un super restaurant hier soir"
+          },
+          "situation": "Tu racontes ta soirée à un ami le lendemain matin.",
+          "reveal": "WENT c'est le passé de GO. 'I WENT' = je suis allé. C'est irrégulier (pas 'goed') mais tu l'entendras tellement souvent que ça deviendra naturel.",
+          "more_phrases": [
+            { "en": "She went home early", "fr": "Elle est rentrée tôt" },
+            { "en": "We went to the beach", "fr": "On est allés à la plage" },
+            { "en": "They went shopping", "fr": "Ils sont allés faire les courses" }
+          ],
+          "trap_highlight": "je_suis_alle",
+          "memo_tip": "En français : je SUIS allé (avec être). En anglais : I WENT (tout seul). Pas de 'am' ou 'was', juste WENT. C'est plus simple qu'en français !",
+          "words_to_save": [
+            { "en": "last night", "fr": "hier soir" },
+            { "en": "restaurant", "fr": "restaurant" },
+            { "en": "beach", "fr": "plage" },
+            { "en": "early", "fr": "tôt" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : WENT",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I went to a great restaurant last night",
+            "fr": "Je suis allé dans un super restaurant hier soir"
+          },
+          "recap": "Passé de GO = WENT. Mais questions = DID you GO? Et négations = I DIDN'T GO. Après DID/DIDN'T, c'est toujours GO (base).",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec went, go ou didn't",
+            "questions": [
+              { "question": "I ___ to the cinema yesterday", "answer": "went", "hint": "Je suis allé au cinéma hier" },
+              { "question": "Did you ___ to the party?", "answer": "go", "hint": "Après DID = forme de base" },
+              { "question": "She ___ go to work today", "answer": "didn't", "hint": "Elle n'est pas allée au travail" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : raconte ton week-end",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I went to the park and we had a picnic",
+            "fr": "Je suis allé au parc et on a fait un pique-nique"
+          },
+          "situation": "C'est lundi, un collègue te demande ton week-end.",
+          "more_phrases": [
+            { "en": "Where did you go on vacation?", "fr": "T'es allé où en vacances ?" },
+            { "en": "I didn't go anywhere, I stayed home", "fr": "Je suis allé nulle part, je suis resté à la maison" },
+            { "en": "He went to London last month", "fr": "Il est allé à Londres le mois dernier" }
+          ],
+          "trap_highlight": "did_go_not_went",
+          "memo_tip": "WENT pour les affirmations : 'I went'. DID + GO pour les questions : 'Did you go?'. DIDN'T + GO pour les négations : 'I didn't go'. Le passé est sur WENT ou sur DID, jamais les deux.",
+          "words_to_save": [
+            { "en": "park", "fr": "parc" },
+            { "en": "vacation", "fr": "vacances" },
+            { "en": "anywhere", "fr": "nulle part / quelque part" },
+            { "en": "last month", "fr": "le mois dernier" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais",
+            "questions": [
+              { "question": "Je suis allé au cinéma", "answer": "I went to the cinema", "also_accept": ["I went to the movies"], "hint": "Passé de GO = WENT" },
+              { "question": "T'es allé où ?", "answer": "Where did you go?", "also_accept": [], "hint": "DID + GO (pas went !)" },
+              { "question": "Elle est pas allée au travail", "answer": "She didn't go to work", "also_accept": [], "hint": "DIDN'T + GO" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : mélange présent, futur et passé",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I usually go to the gym but I didn't go yesterday. I'm going to go tomorrow",
+            "fr": "D'habitude je vais à la salle mais hier j'y suis pas allé. J'irai demain"
+          },
+          "situation": "Tu parles de tes habitudes sportives avec un ami.",
+          "more_phrases": [
+            { "en": "We went to Spain last year. This year we're going to go to Italy", "fr": "On est allés en Espagne l'année dernière. Cette année on va en Italie" },
+            { "en": "He goes to work by car but yesterday he went by bus", "fr": "Il va au travail en voiture mais hier il y est allé en bus" },
+            { "en": "Did you go out last night?", "fr": "T'es sorti hier soir ?" }
+          ],
+          "memo_tip": "Trois temps avec GO : présent (I GO), futur (I'M GOING TO GO), passé (I WENT). Tu peux maintenant parler de tes déplacements à tous les temps !",
+          "words_to_save": [
+            { "en": "usually", "fr": "d'habitude" },
+            { "en": "last year", "fr": "l'année dernière" },
+            { "en": "this year", "fr": "cette année" },
+            { "en": "by car", "fr": "en voiture" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["went", "I", "to", "the", "cinema"], "answer": "I went to the cinema", "hint": "Je suis allé au cinéma" },
+              { "words": ["did", "you", "where", "go", "?"], "answer": "Where did you go?", "hint": "T'es allé où ?" },
+              { "words": ["going", "I'm", "to", "go", "home"], "answer": "I'm going to go home", "hint": "Je vais rentrer" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : récit de voyage",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "We went to Japan. It was amazing. We're going to go back next year",
+            "fr": "On est allés au Japon. C'était incroyable. On va y retourner l'année prochaine"
+          },
+          "situation": "Tu racontes tes vacances à des amis.",
+          "more_phrases": [
+            { "en": "I went there by myself", "fr": "J'y suis allé tout seul" },
+            { "en": "Did you go to the museum?", "fr": "T'es allé au musée ?" },
+            { "en": "We didn't go out much because it was raining", "fr": "On est pas trop sortis parce qu'il pleuvait" }
+          ],
+          "words_to_save": [
+            { "en": "amazing", "fr": "incroyable" },
+            { "en": "next year", "fr": "l'année prochaine" },
+            { "en": "by myself", "fr": "tout seul" },
+            { "en": "museum", "fr": "musée" }
+          ]
+        },
+        "J7_evening": {
+          "title": "BOSS FINAL : GO complet",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi ultime ! Présent, passé, futur et pièges",
+            "questions": [
+              { "type": "translate", "question": "Je suis allé au cinéma hier", "answer": "I went to the cinema yesterday", "also_accept": ["I went to the movies yesterday"], "hint": "Passé = WENT" },
+              { "type": "translate", "question": "Je vais bien", "answer": "I'm fine", "also_accept": ["I'm good", "I am fine"], "hint": "Piège ! Aller bien = TO BE" },
+              { "type": "fill_blank", "question": "Did you ___ to the party?", "answer": "go", "hint": "Après DID = forme de base" },
+              { "type": "translate", "question": "Je vais manger", "answer": "I'm going to eat", "also_accept": [], "hint": "Futur = going to" },
+              { "type": "translate", "question": "Je rentre à la maison", "answer": "I go home", "also_accept": ["I'm going home"], "hint": "Pas de TO avec HOME" },
+              { "type": "reorder", "words": ["went", "we", "to", "the", "beach"], "answer": "We went to the beach", "hint": "On est allés à la plage" }
+            ],
+            "mastery_message": "GO est MAÎTRISÉ ! Présent, passé (WENT), futur (GOING TO) et tous les pièges. Tu sais parler de tes déplacements à tous les temps. GET se débloque !"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_words": 32,
+    "total_phrases": 39,
+    "total_traps": 5,
+    "total_challenges": 38,
+    "total_days": 14,
+    "estimated_mastery_time": "2 semaines (à raison de 2 sessions par jour)"
+  }
+}

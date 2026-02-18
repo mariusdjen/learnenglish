@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary palette - calming blues */
+  --color-primary-50: #EFF6FF;
+  --color-primary-100: #DBEAFE;
+  --color-primary-200: #BFDBFE;
+  --color-primary-300: #93C5FD;
+  --color-primary-400: #60A5FA;
+  --color-primary-500: #3B82F6;
+  --color-primary-600: #2563EB;
+  --color-primary-700: #1D4ED8;
+
+  /* Accent - encouraging greens */
+  --color-accent-50: #F0FDF4;
+  --color-accent-100: #DCFCE7;
+  --color-accent-200: #BBF7D0;
+  --color-accent-300: #86EFAC;
+  --color-accent-400: #4ADE80;
+  --color-accent-500: #22C55E;
+  --color-accent-600: #16A34A;
+
+  /* Warm - traps and corrections */
+  --color-warm-50: #FFF7ED;
+  --color-warm-100: #FFEDD5;
+  --color-warm-200: #FED7AA;
+  --color-warm-300: #FDBA74;
+  --color-warm-400: #FB923C;
+  --color-warm-500: #F97316;
+
+  /* Error */
+  --color-error-50: #FEF2F2;
+  --color-error-100: #FEE2E2;
+  --color-error-400: #F87171;
+  --color-error-500: #EF4444;
+
+  /* Surface */
+  --color-surface: #FAFBFC;
+  --color-surface-card: #FFFFFF;
+  --color-surface-muted: #F1F5F9;
+
+  /* Text */
+  --color-text-primary: #1E293B;
+  --color-text-secondary: #64748B;
+  --color-text-muted: #94A3B8;
+
+  /* Font */
+  --font-sans: "Nunito", system-ui, sans-serif;
+
+  /* Font sizes - metro readable */
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.625rem;
+  --text-body-lg: 1.1875rem;
+  --text-body-lg--line-height: 1.75rem;
+  --text-heading: 1.5rem;
+  --text-heading--line-height: 2rem;
+  --text-heading-lg: 1.875rem;
+  --text-heading-lg--line-height: 2.25rem;
+  --text-caption: 0.875rem;
+  --text-caption--line-height: 1.25rem;
+
+  /* Border radius */
+  --radius-card: 1rem;
+  --radius-button: 0.75rem;
+  --radius-pill: 9999px;
+
+  /* Shadow elevation system */
+  --shadow-elevation-1: 0 1px 3px 0 rgba(0,0,0,0.04), 0 1px 2px -1px rgba(0,0,0,0.03);
+  --shadow-elevation-2: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.04);
+  --shadow-elevation-3: 0 10px 15px -3px rgba(0,0,0,0.06), 0 4px 6px -4px rgba(0,0,0,0.04);
+  --shadow-elevation-4: 0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
+
+  /* Animations */
+  --animate-slide-up: slide-up 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-fade-in: fade-in 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-bounce-in: bounce-in 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-confetti-dot: confetti-dot 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-shake: shake 0.4s ease-in-out;
+  --animate-stagger-item: stagger-item 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-scale-in: scale-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --animate-indicator-slide: indicator-slide 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes slide-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes bounce-in {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes confetti-dot {
+  0% {
+    transform: translateY(0) scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+@keyframes stagger-item {
+  from { transform: translateY(16px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes scale-in {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes progress-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(59, 130, 246, 0.3); }
+  50% { box-shadow: 0 0 8px rgba(59, 130, 246, 0.5); }
+}
+
+@keyframes indicator-slide {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes toast-shrink {
+  from { transform: scaleX(1); }
+  to { transform: scaleX(0); }
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Premium utilities */
+.glass {
+  backdrop-filter: blur(12px) saturate(1.4);
+  -webkit-backdrop-filter: blur(12px) saturate(1.4);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--color-surface-muted) 25%, rgba(255,255,255,0.5) 50%, var(--color-surface-muted) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}

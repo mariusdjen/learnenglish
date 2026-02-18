@@ -1,0 +1,183 @@
+{
+  "id": "say",
+  "name_en": "to say",
+  "name_fr": "dire",
+  "order": 7,
+  "personality": "SAY est le messager - il transmet ce que les gens disent, pensent, expriment. C'est 'dire' en anglais, mais attention : son cousin TELL existe aussi et ils ne s'utilisent pas pareil.",
+  "unlock_message": "SAY c'est 'dire'. 'He says', 'I said', 'what did you say?'. Simple mais avec un piège : SAY + mots, TELL + personne.",
+  "tenses": [
+    {
+      "id": "present",
+      "name_simple": "Quand tu rapportes ce que quelqu'un dit",
+      "name_grammar": "Present simple",
+      "explanation_simple": "SAY c'est 'dire'. I SAY = je dis. Il se conjugue normalement sauf une surprise : SAYS se prononce 'sèz', pas 'séïz'. Et le grand piège : SAY + mots, TELL + personne.",
+      "conjugation": { "I": "say", "you": "say", "he/she/it": "says", "we": "say", "they": "say" },
+      "conjugation_tip": "SAYS se prononce 'SÈZ' ! Pas 'séïz'. C'est une exception de prononciation. He says = il dit (prononce 'hi sèz').",
+      "traps": [
+        {
+          "id": "say_vs_tell",
+          "wrong_fr": "Dis-lui la vérité",
+          "wrong_en": "Say him the truth",
+          "correct_en": "Tell him the truth",
+          "explanation": "SAY + mots/phrases : 'Say hello', 'Say yes'. TELL + personne : 'Tell him', 'Tell me'. Pour 'dire À quelqu'un', c'est TELL."
+        },
+        {
+          "id": "say_vs_tell_order",
+          "wrong_fr": "Il m'a dit de venir",
+          "wrong_en": "He said me to come",
+          "correct_en": "He told me to come",
+          "explanation": "'Dire à quelqu'un DE faire' = TELL someone TO do. 'He TOLD me to come'. Jamais 'said me to come'."
+        },
+        {
+          "id": "on_dit_trap",
+          "wrong_fr": "On dit que...",
+          "wrong_en": "It says itself that...",
+          "correct_en": "They say that... / People say that...",
+          "explanation": "'On dit que' en français est impersonnel. En anglais : 'They say that...' ou 'People say that...'. THEY ou PEOPLE remplacent le 'on' français."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : SAY = dire",
+          "time_of_day": "morning",
+          "phrase": { "en": "How do you say this in English?", "fr": "Comment on dit ça en anglais ?" },
+          "situation": "Tu demandes à quelqu'un comment traduire un mot.",
+          "reveal": "SAY c'est 'dire'. Cette phrase est LA plus utile quand tu apprends l'anglais. 'How do you SAY this in English?' Tu vas l'utiliser tout le temps !",
+          "more_phrases": [
+            { "en": "She says hello", "fr": "Elle dit bonjour" },
+            { "en": "What does this sign say?", "fr": "Qu'est-ce que ce panneau dit ?" },
+            { "en": "I always say thank you", "fr": "Je dis toujours merci" }
+          ],
+          "trap_highlight": "say_vs_tell",
+          "memo_tip": "SAY + MOTS : say hello, say yes, say sorry, say something. TELL + PERSONNE : tell me, tell him, tell her, tell the truth. Facile : si y'a une personne après, c'est TELL.",
+          "words_to_save": [
+            { "en": "to say hello", "fr": "dire bonjour" },
+            { "en": "to say sorry", "fr": "s'excuser" },
+            { "en": "sign", "fr": "panneau" },
+            { "en": "thank you", "fr": "merci" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : SAY vs TELL",
+          "time_of_day": "evening",
+          "phrase": { "en": "What did you say? Tell me!", "fr": "Qu'est-ce que t'as dit ? Dis-moi !" },
+          "recap": "SAY + mots (say hello, say yes). TELL + personne (tell me, tell him). Exception : tell the truth, tell a lie, tell a story (TELL + certains noms spéciaux).",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec say ou tell",
+            "questions": [
+              { "question": "___ hello to your sister for me", "answer": "Say", "hint": "SAY + mots (hello)" },
+              { "question": "___ me the truth", "answer": "Tell", "hint": "TELL + personne (me)" },
+              { "question": "What did she ___?", "answer": "say", "hint": "SAY (pas de personne après)" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : rapporter ce que les gens disent",
+          "time_of_day": "morning",
+          "phrase": { "en": "They say it's going to rain tomorrow", "fr": "On dit qu'il va pleuvoir demain" },
+          "situation": "Tu parles de la météo avec un collègue.",
+          "more_phrases": [
+            { "en": "He says he's busy", "fr": "Il dit qu'il est occupé" },
+            { "en": "Don't say anything!", "fr": "Dis rien !" },
+            { "en": "I didn't say that!", "fr": "J'ai pas dit ça !" }
+          ],
+          "trap_highlight": "on_dit_trap",
+          "memo_tip": "'On dit que' = 'They say that' ou 'People say that'. Le 'on' français n'existe pas en anglais, on utilise THEY ou PEOPLE.",
+          "words_to_save": [
+            { "en": "anything", "fr": "rien / quelque chose" },
+            { "en": "busy", "fr": "occupé" },
+            { "en": "they say", "fr": "on dit / il paraît" },
+            { "en": "that", "fr": "que (conjonction)" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis (SAY ou TELL ?)",
+            "questions": [
+              { "question": "Comment on dit ça en anglais ?", "answer": "How do you say this in English?", "also_accept": [], "hint": "SAY + mots" },
+              { "question": "Dis-moi la vérité", "answer": "Tell me the truth", "also_accept": [], "hint": "TELL + personne" },
+              { "question": "Il dit qu'il est fatigué", "answer": "He says he's tired", "also_accept": ["He says he is tired"], "hint": "SAY + ce qu'il dit" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : SAY et TELL dans la conversation",
+          "time_of_day": "morning",
+          "phrase": { "en": "He told me to call you. He said it was important", "fr": "Il m'a dit de t'appeler. Il a dit que c'était important" },
+          "situation": "Tu transmets un message d'un ami à un autre.",
+          "more_phrases": [
+            { "en": "Can you say that again?", "fr": "Tu peux répéter ?" },
+            { "en": "I told her not to worry", "fr": "Je lui ai dit de ne pas s'inquiéter" },
+            { "en": "What did the doctor say?", "fr": "Qu'est-ce que le médecin a dit ?" }
+          ],
+          "trap_highlight": "say_vs_tell_order",
+          "memo_tip": "TELL someone TO DO = dire à quelqu'un de faire. 'He told me to wait' = il m'a dit d'attendre. SAY pour les mots, TELL pour les ordres et les informations à une personne.",
+          "words_to_save": [
+            { "en": "to call", "fr": "appeler" },
+            { "en": "important", "fr": "important" },
+            { "en": "again", "fr": "encore / de nouveau" },
+            { "en": "doctor", "fr": "médecin" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets dans l'ordre",
+            "questions": [
+              { "words": ["say", "you", "do", "how", "this", "?"], "answer": "How do you say this?", "hint": "Comment on dit ça ?" },
+              { "words": ["told", "he", "me", "to", "wait"], "answer": "He told me to wait", "hint": "Il m'a dit d'attendre" },
+              { "words": ["says", "she", "she's", "busy"], "answer": "She says she's busy", "hint": "Elle dit qu'elle est occupée" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : transmettre des messages",
+          "time_of_day": "morning",
+          "phrase": { "en": "She said she was sorry and told me to say hi to you", "fr": "Elle a dit qu'elle était désolée et m'a dit de te dire bonjour" },
+          "situation": "Tu transmets les excuses d'un ami.",
+          "more_phrases": [
+            { "en": "What did I just say?", "fr": "Qu'est-ce que je viens de dire ?" },
+            { "en": "Tell me about your weekend", "fr": "Raconte-moi ton week-end" },
+            { "en": "People say this restaurant is amazing", "fr": "On dit que ce restaurant est incroyable" }
+          ],
+          "words_to_save": [
+            { "en": "sorry", "fr": "désolé" },
+            { "en": "to say hi", "fr": "dire bonjour" },
+            { "en": "just", "fr": "juste / viens de" },
+            { "en": "about", "fr": "à propos de / sur" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : SAY et TELL",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "SAY ou TELL ? Prouve que tu maîtrises !",
+            "questions": [
+              { "type": "fill_blank", "question": "___ hello to your mom for me", "answer": "Say", "hint": "SAY + mots" },
+              { "type": "fill_blank", "question": "___ me the truth", "answer": "Tell", "hint": "TELL + personne" },
+              { "type": "translate", "question": "Qu'est-ce qu'il a dit ?", "answer": "What did he say?", "also_accept": [], "hint": "SAY (pas de personne après)" },
+              { "type": "translate", "question": "Il m'a dit d'attendre", "answer": "He told me to wait", "also_accept": [], "hint": "TELL + personne + TO + verbe" },
+              { "type": "translate", "question": "On dit que c'est bien", "answer": "They say it's good", "also_accept": ["People say it's good"], "hint": "'On dit' = They say / People say" }
+            ],
+            "mastery_message": "SAY et TELL sont MAÎTRISÉS ! Tu sais dire, rapporter, et transmettre en anglais. KNOW se débloque !"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_words": 20,
+    "total_phrases": 24,
+    "total_traps": 3,
+    "total_challenges": 23,
+    "total_days": 7,
+    "estimated_mastery_time": "1 semaine (à raison de 2 sessions par jour)"
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "id": "have",
+  "name_en": "to have",
+  "name_fr": "avoir",
+  "order": 2,
+  "personality": "HAVE est le collecteur - il possède, il détient, il accumule. En anglais, HAVE exprime la possession, les états physiques, et l'obligation. C'est le deuxième verbe le plus utilisé après BE.",
+  "unlock_message": "Après TO BE, voici TO HAVE - 'avoir'. Tu l'utiliseras pour dire ce que tu possèdes, ce que tu ressens physiquement, et ce que tu dois faire. Attention aux pièges : en français on dit 'j'ai raison', en anglais c'est 'I AM right' !",
+  "tenses": [
+    {
+      "id": "present",
+      "name_simple": "Quand tu parles de ce que tu as maintenant",
+      "name_grammar": "Present simple",
+      "explanation_simple": "HAVE c'est 'avoir'. La seule chose à retenir : avec he/she/it, HAVE devient HAS. C'est tout. I HAVE, you HAVE, he HAS, we HAVE, they HAVE.",
+      "conjugation": {
+        "I": "have",
+        "you": "have",
+        "he/she/it": "has",
+        "we": "have",
+        "they": "have"
+      },
+      "conjugation_tip": "Une seule forme spéciale : HAS pour he/she/it. Tout le reste = HAVE. Pense à 'She HAS a cat' (elle a un chat).",
+      "traps": [
+        {
+          "id": "right_trap",
+          "wrong_fr": "J'ai raison",
+          "wrong_en": "I have reason",
+          "correct_en": "I am right",
+          "explanation": "En français 'avoir raison' utilise AVOIR. En anglais, tu 'es' correct : I AM right. Même logique pour 'avoir tort' → I AM wrong."
+        },
+        {
+          "id": "lucky_trap",
+          "wrong_fr": "J'ai de la chance",
+          "wrong_en": "I have luck",
+          "correct_en": "I am lucky",
+          "explanation": "Encore un piège AVOIR → TO BE ! En français tu 'as' de la chance, en anglais tu 'es' chanceux : I AM lucky."
+        },
+        {
+          "id": "habit_trap",
+          "wrong_fr": "J'ai l'habitude",
+          "wrong_en": "I have the habit",
+          "correct_en": "I am used to it",
+          "explanation": "'Avoir l'habitude' en français → 'être habitué' en anglais. I AM used to it. Pas de HAVE ici !"
+        },
+        {
+          "id": "have_got_trap",
+          "wrong_fr": "J'ai une voiture",
+          "wrong_en": "I have got a car (confusion)",
+          "correct_en": "I have a car / I've got a car",
+          "explanation": "Les deux formes existent ! 'I have a car' (américain) et 'I've got a car' (britannique). Les deux sont corrects. Utilise celui que tu préfères."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : HAVE c'est 'avoir'",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I have a meeting at 10",
+            "fr": "J'ai une réunion à 10h"
+          },
+          "situation": "Tu es dans le métro et tu écris à ton collègue pour prévenir que tu arrives.",
+          "reveal": "HAVE c'est tout simplement 'avoir'. I HAVE = j'ai. C'est direct, simple, et tu l'utiliseras tout le temps.",
+          "more_phrases": [
+            { "en": "She has a new phone", "fr": "Elle a un nouveau téléphone" },
+            { "en": "We have two kids", "fr": "On a deux enfants" },
+            { "en": "I have a headache", "fr": "J'ai mal à la tête" }
+          ],
+          "trap_highlight": "right_trap",
+          "memo_tip": "HAVE = j'ai, tu as, on a. Mais attention : 'j'ai raison' = I AM right, 'j'ai tort' = I AM wrong, 'j'ai de la chance' = I AM lucky. Quand c'est un ÉTAT en français, c'est souvent TO BE en anglais.",
+          "words_to_save": [
+            { "en": "meeting", "fr": "réunion" },
+            { "en": "headache", "fr": "mal de tête" },
+            { "en": "new", "fr": "nouveau" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : HAVE et HAS",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I have a meeting at 10",
+            "fr": "J'ai une réunion à 10h"
+          },
+          "recap": "HAVE = avoir. La seule exception : he/she/it → HAS. Tout le reste = HAVE.",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec have ou has",
+            "questions": [
+              { "question": "I ___ a headache", "answer": "have", "hint": "J'ai mal à la tête" },
+              { "question": "She ___ a new phone", "answer": "has", "hint": "Elle a un nouveau téléphone" },
+              { "question": "We ___ two kids", "answer": "have", "hint": "On a deux enfants" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : HAVE dans ta vie",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I have a question",
+            "fr": "J'ai une question"
+          },
+          "situation": "Tu es en réunion au travail et tu veux poser une question.",
+          "more_phrases": [
+            { "en": "He has a car", "fr": "Il a une voiture" },
+            { "en": "Do you have a minute?", "fr": "Tu as une minute ?" },
+            { "en": "I have no idea", "fr": "J'ai aucune idée" }
+          ],
+          "trap_highlight": "lucky_trap",
+          "memo_tip": "HAS rime avec 'jazz'. He HAS, she HAS, it HAS. Tout le monde HAS du jazz sauf 'I' et 'you' qui gardent HAVE.",
+          "words_to_save": [
+            { "en": "question", "fr": "question" },
+            { "en": "car", "fr": "voiture" },
+            { "en": "minute", "fr": "minute" },
+            { "en": "idea", "fr": "idée" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (utilise HAVE ou HAS)",
+            "questions": [
+              { "question": "J'ai une question", "answer": "I have a question", "also_accept": ["I've got a question"], "hint": "I ___ a question" },
+              { "question": "Elle a une voiture", "answer": "She has a car", "also_accept": ["She's got a car"], "hint": "She ___ a car" },
+              { "question": "J'ai raison", "answer": "I am right", "also_accept": ["I'm right"], "hint": "Attention piège ! C'est TO BE, pas HAVE" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : HAVE pour tout ce qu'on possède",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I don't have time right now",
+            "fr": "J'ai pas le temps là"
+          },
+          "situation": "Quelqu'un t'appelle, tu es pressé et tu ne peux pas parler.",
+          "more_phrases": [
+            { "en": "She doesn't have a brother", "fr": "Elle n'a pas de frère" },
+            { "en": "Do you have any questions?", "fr": "Tu as des questions ?" },
+            { "en": "I have a cold", "fr": "J'ai un rhume" }
+          ],
+          "trap_highlight": "habit_trap",
+          "memo_tip": "Pour les questions et négations avec HAVE, on utilise DO : 'Do you HAVE...?', 'I DON'T HAVE...'. C'est comme tous les verbes normaux (contrairement à TO BE qui fait tout seul).",
+          "words_to_save": [
+            { "en": "time", "fr": "temps" },
+            { "en": "brother", "fr": "frère" },
+            { "en": "cold", "fr": "rhume" },
+            { "en": "any", "fr": "des / quelques" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["have", "I", "don't", "time"], "answer": "I don't have time", "hint": "J'ai pas le temps" },
+              { "words": ["has", "she", "a", "cat"], "answer": "She has a cat", "hint": "Elle a un chat" },
+              { "words": ["you", "do", "have", "a", "car", "?"], "answer": "Do you have a car?", "hint": "Tu as une voiture ?" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : prouve que tu maîtrises HAVE",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I have good news and bad news",
+            "fr": "J'ai une bonne nouvelle et une mauvaise"
+          },
+          "situation": "Tu appelles un ami pour lui annoncer quelque chose.",
+          "more_phrases": [
+            { "en": "He has a lot of experience", "fr": "Il a beaucoup d'expérience" },
+            { "en": "We don't have enough money", "fr": "On n'a pas assez d'argent" },
+            { "en": "Do you have a pen?", "fr": "Tu as un stylo ?" }
+          ],
+          "trap_highlight": "have_got_trap",
+          "words_to_save": [
+            { "en": "good news", "fr": "bonne nouvelle" },
+            { "en": "bad news", "fr": "mauvaise nouvelle" },
+            { "en": "enough", "fr": "assez" },
+            { "en": "experience", "fr": "expérience" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : HAVE au présent",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi final ! Mélange de tout ce que tu as appris",
+            "questions": [
+              { "type": "translate", "question": "J'ai de la chance", "answer": "I am lucky", "also_accept": ["I'm lucky"], "hint": "Piège ! AVOIR → TO BE" },
+              { "type": "fill_blank", "question": "She ___ a new job", "answer": "has", "hint": "Elle a un nouveau travail" },
+              { "type": "translate", "question": "Tu as une minute ?", "answer": "Do you have a minute?", "also_accept": ["Have you got a minute?"], "hint": "Question avec DO" },
+              { "type": "reorder", "words": ["don't", "I", "have", "time"], "answer": "I don't have time", "hint": "J'ai pas le temps" },
+              { "type": "translate", "question": "J'ai raison", "answer": "I am right", "also_accept": ["I'm right"], "hint": "Piège francophone ! AVOIR → TO BE" }
+            ],
+            "mastery_message": "Bravo ! Tu maîtrises HAVE au présent ! Tu sais parler de ce que tu possèdes et tu connais les pièges AVOIR→TO BE. Le passé de HAVE se débloque !"
+          }
+        }
+      }
+    },
+    {
+      "id": "past",
+      "name_simple": "Quand tu parles de ce que tu avais avant",
+      "name_grammar": "Past simple",
+      "explanation_simple": "Le passé de HAVE c'est HAD. Et la bonne nouvelle : c'est HAD pour TOUT LE MONDE. I had, you had, he had, we had, they had. Une seule forme, c'est le plus simple de tous les passés.",
+      "conjugation": {
+        "I": "had",
+        "you": "had",
+        "he/she/it": "had",
+        "we": "had",
+        "they": "had"
+      },
+      "conjugation_tip": "HAD pour tout le monde, sans exception. C'est encore plus simple que WAS/WERE ! Pense à 'I HAD a dream' (j'ai fait un rêve).",
+      "traps": [
+        {
+          "id": "age_still_be",
+          "wrong_fr": "Quand j'avais 10 ans",
+          "wrong_en": "When I had 10 years",
+          "correct_en": "When I was 10",
+          "explanation": "Même au passé, l'âge utilise TO BE ! I AM 25 (maintenant), I WAS 10 (avant). Jamais HAVE pour l'âge."
+        },
+        {
+          "id": "had_questions",
+          "wrong_fr": "Tu avais une voiture ?",
+          "wrong_en": "Had you a car?",
+          "correct_en": "Did you have a car?",
+          "explanation": "Pour les questions au passé avec HAVE, on utilise DID : 'DID you HAVE a car?'. HAVE n'inverse pas comme TO BE."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : HAD pour tout le monde",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I had a great weekend",
+            "fr": "J'ai passé un super week-end"
+          },
+          "situation": "C'est lundi matin, un collègue te demande comment était ton week-end.",
+          "reveal": "HAD c'est le passé de HAVE. I HAD = j'avais / j'ai eu. Et c'est HAD pour TOUT LE MONDE : I had, she had, they had. Zéro exception.",
+          "more_phrases": [
+            { "en": "She had a long day", "fr": "Elle a eu une longue journée" },
+            { "en": "We had fun", "fr": "On s'est bien amusés" },
+            { "en": "I had no choice", "fr": "J'avais pas le choix" }
+          ],
+          "trap_highlight": "age_still_be",
+          "memo_tip": "HAD = 'j'avais' ou 'j'ai eu'. Pour tout le monde. I HAD a dream, she HAD a problem, we HAD fun. Simple comme bonjour.",
+          "words_to_save": [
+            { "en": "great", "fr": "super / génial" },
+            { "en": "weekend", "fr": "week-end" },
+            { "en": "fun", "fr": "amusement / plaisir" },
+            { "en": "choice", "fr": "choix" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : HAD",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I had a great weekend",
+            "fr": "J'ai passé un super week-end"
+          },
+          "recap": "HAD c'est le passé de HAVE, pour TOUT LE MONDE. Questions : DID you HAVE...? Négations : I DIDN'T HAVE...",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec had, did ou didn't",
+            "questions": [
+              { "question": "I ___ a great weekend", "answer": "had", "hint": "J'ai passé un super week-end" },
+              { "question": "___ you have fun?", "answer": "Did", "hint": "Tu t'es amusé ?" },
+              { "question": "She ___ have time", "answer": "didn't", "hint": "Elle n'avait pas le temps" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : HAD dans ta vie",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I had a headache this morning",
+            "fr": "J'avais mal à la tête ce matin"
+          },
+          "situation": "Tu expliques à un ami pourquoi tu n'as pas répondu à son message.",
+          "more_phrases": [
+            { "en": "We had dinner at 8", "fr": "On a dîné à 20h" },
+            { "en": "He had a good idea", "fr": "Il a eu une bonne idée" },
+            { "en": "I didn't have breakfast", "fr": "J'ai pas pris de petit-déjeuner" }
+          ],
+          "trap_highlight": "had_questions",
+          "memo_tip": "HAD utilise DID pour les questions, comme tous les verbes normaux. 'DID you HAVE fun?' Le verbe revient à sa forme de base (have) après DID.",
+          "words_to_save": [
+            { "en": "dinner", "fr": "dîner" },
+            { "en": "breakfast", "fr": "petit-déjeuner" },
+            { "en": "good idea", "fr": "bonne idée" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (au passé)",
+            "questions": [
+              { "question": "J'avais mal à la tête", "answer": "I had a headache", "also_accept": [], "hint": "I ___ a headache" },
+              { "question": "Tu t'es amusé ?", "answer": "Did you have fun?", "also_accept": [], "hint": "DID you ___?" },
+              { "question": "Quand j'avais 15 ans", "answer": "When I was 15", "also_accept": ["When I was 15 years old"], "hint": "Piège ! L'âge = TO BE, pas HAVE" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : mélange présent et passé",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I had a car before, now I have a bike",
+            "fr": "J'avais une voiture avant, maintenant j'ai un vélo"
+          },
+          "situation": "Tu expliques à quelqu'un comment ta vie a changé.",
+          "more_phrases": [
+            { "en": "She had a dog when she was young", "fr": "Elle avait un chien quand elle était jeune" },
+            { "en": "We didn't have WiFi at the hotel", "fr": "On n'avait pas de WiFi à l'hôtel" },
+            { "en": "Did you have a good flight?", "fr": "Tu as fait bon voyage ?" }
+          ],
+          "memo_tip": "Présent : HAVE/HAS. Passé : HAD (tout le monde). C'est le même principe que BE : AM/IS/ARE → WAS/WERE.",
+          "words_to_save": [
+            { "en": "before", "fr": "avant" },
+            { "en": "bike", "fr": "vélo" },
+            { "en": "young", "fr": "jeune" },
+            { "en": "flight", "fr": "vol (avion)" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["had", "I", "a", "great", "weekend"], "answer": "I had a great weekend", "hint": "J'ai passé un super week-end" },
+              { "words": ["you", "did", "have", "fun", "?"], "answer": "Did you have fun?", "hint": "Tu t'es amusé ?" },
+              { "words": ["didn't", "we", "have", "time"], "answer": "We didn't have time", "hint": "On n'avait pas le temps" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : raconte ta semaine",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I had a busy week but it was worth it",
+            "fr": "J'ai eu une semaine chargée mais ça valait le coup"
+          },
+          "situation": "Vendredi soir, tu fais le bilan de ta semaine avec un ami.",
+          "more_phrases": [
+            { "en": "We had a problem with the computer", "fr": "On a eu un problème avec l'ordinateur" },
+            { "en": "Did you have lunch?", "fr": "T'as mangé ?" },
+            { "en": "I had the best coffee this morning", "fr": "J'ai eu le meilleur café ce matin" }
+          ],
+          "words_to_save": [
+            { "en": "busy", "fr": "chargé / occupé" },
+            { "en": "worth it", "fr": "ça vaut le coup" },
+            { "en": "problem", "fr": "problème" },
+            { "en": "lunch", "fr": "déjeuner" }
+          ]
+        },
+        "J7_evening": {
+          "title": "Défi final : HAVE au passé",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi final ! Présent et passé de HAVE",
+            "questions": [
+              { "type": "translate", "question": "J'avais mal à la tête", "answer": "I had a headache", "also_accept": [], "hint": "Passé de HAVE = HAD" },
+              { "type": "fill_blank", "question": "___ you have a good weekend?", "answer": "Did", "hint": "Question au passé = DID" },
+              { "type": "translate", "question": "Elle n'avait pas le temps", "answer": "She didn't have time", "also_accept": [], "hint": "Négation au passé = DIDN'T HAVE" },
+              { "type": "reorder", "words": ["had", "we", "fun", "yesterday"], "answer": "We had fun yesterday", "hint": "On s'est amusés hier" },
+              { "type": "translate", "question": "Quand j'avais 10 ans", "answer": "When I was 10", "also_accept": ["When I was 10 years old"], "hint": "Piège ! L'âge = TO BE, pas HAVE" }
+            ],
+            "mastery_message": "Bravo ! Tu maîtrises HAVE au présent et au passé ! Tu sais parler de ce que tu as et de ce que tu avais. HAVE TO (l'obligation) se débloque !"
+          }
+        }
+      }
+    },
+    {
+      "id": "have_to",
+      "name_simple": "Quand tu dois faire quelque chose (obligation)",
+      "name_grammar": "Have to (obligation)",
+      "explanation_simple": "HAVE TO c'est 'devoir' / 'il faut'. I HAVE TO go = je dois y aller. C'est comme ça qu'on exprime l'obligation en anglais du quotidien. Bien plus courant que 'must'.",
+      "conjugation": {
+        "I": "have to",
+        "you": "have to",
+        "he/she/it": "has to",
+        "we": "have to",
+        "they": "have to",
+        "past": "had to (all persons)"
+      },
+      "conjugation_tip": "C'est HAVE normal + TO + verbe. Donc he/she/it = HAS TO. Au passé = HAD TO pour tout le monde. Pense à 'I HAVE TO work' (je dois travailler).",
+      "traps": [
+        {
+          "id": "must_vs_have_to",
+          "wrong_fr": "Je dois partir",
+          "wrong_en": "I must go (trop formel)",
+          "correct_en": "I have to go",
+          "explanation": "MUST et HAVE TO veulent dire 'devoir', mais HAVE TO est BEAUCOUP plus courant à l'oral. MUST fait très formel ou écrit. Au quotidien, utilise toujours HAVE TO."
+        },
+        {
+          "id": "il_faut_trap",
+          "wrong_fr": "Il faut manger",
+          "wrong_en": "It needs to eat",
+          "correct_en": "You have to eat / We have to eat",
+          "explanation": "'Il faut' en français est impersonnel. En anglais, il FAUT un sujet : YOU have to, I have to, WE have to. Pas de 'it faut'."
+        },
+        {
+          "id": "dont_have_to_trap",
+          "wrong_fr": "Tu ne dois pas mentir (interdiction)",
+          "wrong_en": "You don't have to lie",
+          "correct_en": "You mustn't lie (interdiction) / You don't have to lie (pas obligé)",
+          "explanation": "Attention ! DON'T HAVE TO = pas obligé (c'est pas nécessaire). MUSTN'T = interdit. 'You don't have to come' = t'es pas obligé de venir. 'You mustn't smoke here' = c'est interdit de fumer ici."
+        }
+      ],
+      "days": {
+        "J1_discovery": {
+          "title": "Découverte : HAVE TO = je dois",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I have to go, I'm late",
+            "fr": "Faut que j'y aille, je suis en retard"
+          },
+          "situation": "Tu es au téléphone avec un ami et tu réalises que tu vas être en retard au travail.",
+          "reveal": "HAVE TO + verbe = devoir / il faut. 'I HAVE TO go' = je dois y aller. C'est LA façon de dire 'je dois' en anglais du quotidien. Oublie 'must', utilise HAVE TO.",
+          "more_phrases": [
+            { "en": "I have to work tomorrow", "fr": "Je dois travailler demain" },
+            { "en": "She has to leave early", "fr": "Elle doit partir tôt" },
+            { "en": "We have to talk", "fr": "Il faut qu'on parle" }
+          ],
+          "trap_highlight": "must_vs_have_to",
+          "memo_tip": "HAVE TO = devoir au quotidien. 'I HAVE TO go to work' = je dois aller au travail. MUST = le policier qui te donne un ordre. Au quotidien, c'est HAVE TO.",
+          "words_to_save": [
+            { "en": "late", "fr": "en retard" },
+            { "en": "early", "fr": "tôt" },
+            { "en": "tomorrow", "fr": "demain" },
+            { "en": "to leave", "fr": "partir" }
+          ]
+        },
+        "J1_evening": {
+          "title": "Consolidation : HAVE TO / HAS TO",
+          "time_of_day": "evening",
+          "phrase": {
+            "en": "I have to go, I'm late",
+            "fr": "Faut que j'y aille, je suis en retard"
+          },
+          "recap": "HAVE TO = je dois. HAS TO = il/elle doit. Au passé : HAD TO = je devais. Questions : DO you HAVE TO...? DID you HAVE TO...?",
+          "challenge": {
+            "type": "fill_blank",
+            "instruction": "Complète avec have to, has to ou had to",
+            "questions": [
+              { "question": "I ___ work tomorrow", "answer": "have to", "hint": "Je dois travailler demain" },
+              { "question": "She ___ leave early", "answer": "has to", "hint": "Elle doit partir tôt" },
+              { "question": "Yesterday, I ___ stay late", "answer": "had to", "hint": "Hier, j'ai dû rester tard" }
+            ]
+          }
+        },
+        "J2_challenge": {
+          "title": "Défi : les obligations du quotidien",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "Do I have to bring anything?",
+            "fr": "Faut que j'apporte quelque chose ?"
+          },
+          "situation": "Un ami t'invite à dîner chez lui, tu demandes si tu dois apporter quelque chose.",
+          "more_phrases": [
+            { "en": "You don't have to come", "fr": "T'es pas obligé de venir" },
+            { "en": "I had to wait 30 minutes", "fr": "J'ai dû attendre 30 minutes" },
+            { "en": "Does she have to work on Saturday?", "fr": "Elle doit travailler samedi ?" }
+          ],
+          "trap_highlight": "il_faut_trap",
+          "memo_tip": "'Il faut' en français n'a pas de personne. En anglais, il en faut une ! 'Il faut manger' → 'YOU have to eat' ou 'WE have to eat'. Toujours un sujet.",
+          "words_to_save": [
+            { "en": "to bring", "fr": "apporter" },
+            { "en": "anything", "fr": "quelque chose / n'importe quoi" },
+            { "en": "to wait", "fr": "attendre" },
+            { "en": "Saturday", "fr": "samedi" }
+          ]
+        },
+        "J2_evening": {
+          "title": "Défi du soir",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "translate",
+            "instruction": "Traduis en anglais (utilise HAVE TO)",
+            "questions": [
+              { "question": "Je dois y aller", "answer": "I have to go", "also_accept": ["I've got to go"], "hint": "I ___ to go" },
+              { "question": "T'es pas obligé de venir", "answer": "You don't have to come", "also_accept": [], "hint": "DON'T HAVE TO = pas obligé" },
+              { "question": "Il faut qu'on parle", "answer": "We have to talk", "also_accept": [], "hint": "Il faut → un sujet + have to" }
+            ]
+          }
+        },
+        "J4_recall": {
+          "title": "Rappel : obligation présent et passé",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I had to cancel, sorry",
+            "fr": "J'ai dû annuler, désolé"
+          },
+          "situation": "Tu envoies un message à un ami pour expliquer pourquoi tu ne peux plus venir.",
+          "more_phrases": [
+            { "en": "You have to try this restaurant", "fr": "Faut que tu essaies ce restaurant" },
+            { "en": "I didn't have to pay", "fr": "J'ai pas eu à payer" },
+            { "en": "We had to change our plans", "fr": "On a dû changer nos plans" }
+          ],
+          "trap_highlight": "dont_have_to_trap",
+          "memo_tip": "DON'T HAVE TO = pas obligé (libre de choisir). MUSTN'T = interdit (défense). 'You don't have to tip' = t'es pas obligé de laisser un pourboire. 'You mustn't smoke' = interdit de fumer.",
+          "words_to_save": [
+            { "en": "to cancel", "fr": "annuler" },
+            { "en": "to try", "fr": "essayer" },
+            { "en": "to pay", "fr": "payer" },
+            { "en": "plans", "fr": "plans / projets" }
+          ]
+        },
+        "J4_evening": {
+          "title": "Défi rappel",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "reorder",
+            "instruction": "Remets les mots dans le bon ordre",
+            "questions": [
+              { "words": ["have", "I", "to", "go"], "answer": "I have to go", "hint": "Je dois y aller" },
+              { "words": ["to", "had", "we", "wait"], "answer": "We had to wait", "hint": "On a dû attendre" },
+              { "words": ["have", "don't", "you", "to", "come"], "answer": "You don't have to come", "hint": "T'es pas obligé de venir" }
+            ]
+          }
+        },
+        "J7_mastery": {
+          "title": "Situation nouvelle : les obligations de la vie",
+          "time_of_day": "morning",
+          "phrase": {
+            "en": "I have to wake up at 6 every day",
+            "fr": "Je dois me lever à 6h tous les jours"
+          },
+          "situation": "Tu parles de ta routine quotidienne avec un ami.",
+          "more_phrases": [
+            { "en": "She doesn't have to work on Fridays", "fr": "Elle n'est pas obligée de travailler le vendredi" },
+            { "en": "Did you have to wait long?", "fr": "T'as dû attendre longtemps ?" },
+            { "en": "I had to take the train because my car didn't work", "fr": "J'ai dû prendre le train parce que ma voiture marchait pas" }
+          ],
+          "words_to_save": [
+            { "en": "to wake up", "fr": "se réveiller" },
+            { "en": "every day", "fr": "tous les jours" },
+            { "en": "long", "fr": "longtemps" },
+            { "en": "because", "fr": "parce que" }
+          ]
+        },
+        "J7_evening": {
+          "title": "BOSS FINAL : HAVE complet",
+          "time_of_day": "evening",
+          "challenge": {
+            "type": "mixed",
+            "instruction": "Défi ultime ! Possession, passé et obligation - tout y passe",
+            "questions": [
+              { "type": "translate", "question": "J'ai de la chance", "answer": "I am lucky", "also_accept": ["I'm lucky"], "hint": "Piège AVOIR → TO BE !" },
+              { "type": "fill_blank", "question": "She ___ to leave early yesterday", "answer": "had", "hint": "Elle a dû partir tôt hier" },
+              { "type": "translate", "question": "T'es pas obligé de payer", "answer": "You don't have to pay", "also_accept": [], "hint": "DON'T HAVE TO = pas obligé" },
+              { "type": "reorder", "words": ["to", "have", "I", "work", "tomorrow"], "answer": "I have to work tomorrow", "hint": "Je dois travailler demain" },
+              { "type": "translate", "question": "Il faut qu'on parle", "answer": "We have to talk", "also_accept": [], "hint": "Il faut → sujet + have to" },
+              { "type": "fill_blank", "question": "I ___ a great weekend", "answer": "had", "hint": "J'ai passé un super week-end" }
+            ],
+            "mastery_message": "HAVE est MAÎTRISÉ ! Possession, passé, et obligation - tu sais tout faire. Tu connais aussi le piège AVOIR→TO BE. TO DO se débloque !"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_words": 36,
+    "total_phrases": 39,
+    "total_traps": 9,
+    "total_challenges": 39,
+    "total_days": 21,
+    "estimated_mastery_time": "3 semaines (à raison de 2 sessions par jour)"
+  }
+}
