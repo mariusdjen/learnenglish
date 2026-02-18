@@ -136,7 +136,7 @@ export default function LessonPage() {
         title={`${verb.name_en.toUpperCase()} - ${tense.name_simple}`}
         showBack
       >
-        <div className="space-y-5 pb-8">
+        <div className="px-4 py-6 space-y-5">
           {/* Day progress indicator */}
           <div className="opacity-0 animate-stagger-item" style={{ animationDelay: '0ms' }}>
             <DayProgress completedDays={completedDays} currentDayKey={dayKey} />
@@ -254,7 +254,7 @@ export default function LessonPage() {
         title={`${verb.name_en.toUpperCase()} - Exercices`}
         showBack
       >
-        <div className="space-y-5 pb-8">
+        <div className="px-4 py-6 space-y-5">
           {/* Day progress indicator */}
           <DayProgress completedDays={completedDays} currentDayKey={dayKey} />
 
