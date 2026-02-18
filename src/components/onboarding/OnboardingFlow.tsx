@@ -7,7 +7,7 @@ import type { UserLevel, PreferredTime } from "@/types/progress";
 import QuestionStep from "./QuestionStep";
 import FirstVictory from "./FirstVictory";
 import Button from "@/components/ui/Button";
-import { requestNotificationPermission } from "@/lib/notifications";
+import { subscribeToPush } from "@/lib/notifications";
 
 const LEVEL_OPTIONS = [
   {
@@ -78,11 +78,8 @@ export default function OnboardingFlow() {
 
   // Step 2: Notifications confirm
   const handleNotificationsContinue = useCallback(async () => {
-    if (notificationsChoice) {
-      await requestNotificationPermission();
-      if (preferredTime) {
-        localStorage.setItem('notification-preferred-time', preferredTime);
-      }
+    if (notificationsChoice && preferredTime) {
+      await subscribeToPush(preferredTime);
     }
     setNotifications(notificationsChoice);
     setCurrentStep(3);

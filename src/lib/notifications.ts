@@ -1,45 +1,100 @@
 export async function requestNotificationPermission(): Promise<boolean> {
-  if (!('Notification' in window)) return false;
-  if (Notification.permission === 'granted') return true;
-  if (Notification.permission === 'denied') return false;
+  if (!("Notification" in window)) return false;
+  if (Notification.permission === "granted") return true;
+  if (Notification.permission === "denied") return false;
   const result = await Notification.requestPermission();
-  return result === 'granted';
+  return result === "granted";
 }
 
 export async function registerServiceWorker(): Promise<ServiceWorkerRegistration | null> {
-  if (!('serviceWorker' in navigator)) return null;
+  if (!("serviceWorker" in navigator)) return null;
   try {
-    return await navigator.serviceWorker.register('/sw.js');
+    return await navigator.serviceWorker.register("/sw.js");
   } catch {
     return null;
   }
 }
 
-export function checkAndShowReminder(): void {
-  const lastReminder = localStorage.getItem('notification-last-reminder');
-  const preferredTime = localStorage.getItem('notification-preferred-time');
-  const today = new Date().toISOString().split('T')[0];
-  if (lastReminder === today) return;
+/**
+ * Subscribe to real web push notifications.
+ * Sends the subscription to our backend API.
+ */
+export async function subscribeToPush(preferredTime: string): Promise<boolean> {
+  try {
+    const registration = await registerServiceWorker();
+    if (!registration) return false;
 
-  const hour = new Date().getHours();
-  if (matchesPreferredTime(hour, preferredTime) && Notification.permission === 'granted') {
-    new Notification('English avec Marius', {
-      body: hour < 14
-        ? 'Bonjour ! Ta lecon du matin t\'attend.'
-        : 'Bonsoir ! C\'est l\'heure de tes exercices.',
-      icon: '/icons/icon-192.png',
-      tag: 'lesson-reminder',
+    const permission = await requestNotificationPermission();
+    if (!permission) return false;
+
+    const vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
+    if (!vapidKey) {
+      console.warn("VAPID public key not configured");
+      return false;
+    }
+
+    // Convert VAPID key to Uint8Array
+    const applicationServerKey = urlBase64ToUint8Array(vapidKey) as BufferSource;
+
+    // Subscribe via Push API
+    let subscription = await registration.pushManager.getSubscription();
+    if (!subscription) {
+      subscription = await registration.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey,
+      });
+    }
+
+    // Send subscription to our backend
+    const subJSON = subscription.toJSON();
+    const response = await fetch("/api/push/subscribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        subscription: {
+          endpoint: subJSON.endpoint,
+          keys: subJSON.keys,
+        },
+        preferredTime,
+      }),
     });
-    localStorage.setItem('notification-last-reminder', today);
+
+    return response.ok;
+  } catch (err) {
+    console.error("Push subscription failed:", err);
+    return false;
   }
 }
 
-function matchesPreferredTime(hour: number, preferredTime: string | null): boolean {
-  switch (preferredTime) {
-    case 'morning': return hour >= 7 && hour <= 10;
-    case 'lunch': return hour >= 11 && hour <= 14;
-    case 'evening': return hour >= 17 && hour <= 21;
-    case 'anytime': return hour >= 7 && hour <= 21;
-    default: return hour >= 8 && hour <= 20;
+/**
+ * Unsubscribe from web push notifications.
+ */
+export async function unsubscribeFromPush(): Promise<void> {
+  try {
+    const registration = await navigator.serviceWorker?.ready;
+    if (!registration) return;
+
+    const subscription = await registration.pushManager.getSubscription();
+    if (subscription) {
+      await fetch("/api/push/subscribe", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ endpoint: subscription.endpoint }),
+      });
+      await subscription.unsubscribe();
+    }
+  } catch (err) {
+    console.error("Push unsubscribe failed:", err);
   }
+}
+
+function urlBase64ToUint8Array(base64String: string): Uint8Array {
+  const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
+  const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
+  const rawData = atob(base64);
+  const outputArray = new Uint8Array(rawData.length);
+  for (let i = 0; i < rawData.length; i++) {
+    outputArray[i] = rawData.charCodeAt(i);
+  }
+  return outputArray;
 }
