@@ -1,11 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buildSystemPrompt } from "@/lib/chat-prompts";
 
 interface ChatRequestBody {
   messages: { role: string; content: string }[];
-  verbName: string;
-  tenseName: string;
-  level: string;
+  systemPrompt: string;
+  maxTokens?: number;
 }
 
 export async function POST(request: NextRequest) {
@@ -29,7 +27,7 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const { messages, verbName, tenseName, level } = body;
+  const { messages, systemPrompt, maxTokens } = body;
 
   if (!messages || !Array.isArray(messages)) {
     return NextResponse.json(
@@ -38,14 +36,12 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  if (!verbName || !tenseName || !level) {
+  if (!systemPrompt) {
     return NextResponse.json(
-      { error: "verbName, tenseName, and level are required." },
+      { error: "systemPrompt is required." },
       { status: 400 },
     );
   }
-
-  const systemPrompt = buildSystemPrompt(verbName, tenseName, level);
 
   const openAIMessages = [
     { role: "system", content: systemPrompt },
@@ -69,7 +65,7 @@ export async function POST(request: NextRequest) {
           messages: openAIMessages,
           stream: true,
           temperature: 0.7,
-          max_tokens: 512,
+          max_tokens: maxTokens ?? 512,
         }),
       },
     );

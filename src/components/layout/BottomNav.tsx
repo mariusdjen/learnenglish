@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-type Tab = "lesson" | "chat" | "notebook";
+type Tab = "lesson" | "chat" | "notebook" | "hall";
 
 interface BottomNavProps {
   activeTab: Tab;
@@ -12,6 +12,7 @@ const tabs: { key: Tab; label: string; href: string }[] = [
   { key: "lesson", label: "Leçon", href: "/home" },
   { key: "chat", label: "Chat", href: "/chat" },
   { key: "notebook", label: "Carnet", href: "/notebook" },
+  { key: "hall", label: "Hall", href: "/hall" },
 ];
 
 function BookIcon({ active }: { active: boolean }) {
@@ -71,10 +72,34 @@ function NotebookIcon({ active }: { active: boolean }) {
   );
 }
 
+function HallIcon({ active }: { active: boolean }) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke={active ? "var(--color-primary-500)" : "var(--color-text-muted)"}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="3" y1="22" x2="21" y2="22" />
+      <line x1="6" y1="18" x2="6" y2="11" />
+      <line x1="10" y1="18" x2="10" y2="11" />
+      <line x1="14" y1="18" x2="14" y2="11" />
+      <line x1="18" y1="18" x2="18" y2="11" />
+      <polygon points="12 2 20 7 4 7" />
+      <line x1="2" y1="18" x2="22" y2="18" />
+    </svg>
+  );
+}
+
 const iconMap: Record<Tab, React.FC<{ active: boolean }>> = {
   lesson: BookIcon,
   chat: ChatIcon,
   notebook: NotebookIcon,
+  hall: HallIcon,
 };
 
 export default function BottomNav({ activeTab }: BottomNavProps) {

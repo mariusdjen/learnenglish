@@ -3,7 +3,7 @@
 import Header from "@/components/layout/Header";
 import BottomNav from "@/components/layout/BottomNav";
 
-type Tab = "lesson" | "chat" | "notebook";
+type Tab = "lesson" | "chat" | "notebook" | "hall";
 
 interface AppShellProps {
   children: React.ReactNode;
